@@ -1,0 +1,786 @@
+                        /* ****************Loading**********************/
+
+                    
+                        .lds-facebook {
+                            display: inline-block;
+                            position: relative;
+                            width: 80px;
+                            height: 80px;
+                            top: 50%;
+                            right: -50%;
+                          }
+                          .lds-facebook div {
+                            display: inline-block;
+                            position: absolute;
+                            left: 8px;
+                            width: 16px;
+                            background: #1A4990;
+                            animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+                          }
+                          .lds-facebook div:nth-child(1) {
+                            left: 8px;
+                            animation-delay: -0.24s;
+                          }
+                          .lds-facebook div:nth-child(2) {
+                            left: 32px;
+                            animation-delay: -0.12s;
+                          }
+                          .lds-facebook div:nth-child(3) {
+                            left: 56px;
+                            animation-delay: 0;
+                          }
+                          @keyframes lds-facebook {
+                            0% {
+                              top: 8px;
+                              height: 64px;
+                            }
+                            50%, 100% {
+                              top: 24px;
+                              height: 32px;
+                            }
+                          }
+                         /* ****************Loading**********************/
+               
+               
+               body{
+                    border: 0;
+                    margin: 0;
+                    /* overflow-x: hidden; */
+                }
+
+                    a{text-decoration: none;}
+                    
+                    a:focus, a:hover {
+                        text-decoration: none;
+                    }
+                    
+                    
+                    body{margin: 0;}
+                    ul{list-style: none;}
+                    
+                    /* ****************header PC**********************/
+                    header{ 
+                        z-index: 50;
+                        height: 105px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        background-color: #ffffff;
+
+                    
+                    }
+                    .nav-W{
+
+                        height: 100%;
+                        background-color: #ffffff;
+                        width: 100%;
+                        z-index: -1;
+                        position: absolute;
+
+                    }
+                    
+                    .logo-DIV{
+                        
+                        position: absolute;
+                        right: 75%;
+                        width: 15%;
+                    }
+                    .meun-div-m{
+                        width: 40%;
+                        height: 40px;
+                    }
+
+                    .menuItem{
+                        width: 16%;
+                    }
+                    .menuItem-lang{
+                        width: 7%;
+                    }
+                    
+
+                    
+                    
+                    .menu { list-style: none;
+                            display: flex;
+                            ALIGN-ITEMS: flex-end;
+                            padding: 0;
+                            margin: 0;
+                        }
+                
+                        .menuitme{padding: 10px 10px;}
+
+                        .logo-IMG{
+                            position: relative;
+                            width: 100%;
+
+                        }
+
+                        .not-active-DIV{
+
+                            background-color: rgb(255, 255, 255);
+                            height: 40px;
+                            width: 100%;
+                            border-radius: 3px;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        .active-DIV{
+
+                            background-color: rgb(255, 255, 255);
+                            height: 40px;
+                            width: 100%;
+                            border-radius: 3px;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        .HOVER{
+                            background-color: #1A4990;
+                            height: 8px;
+                            width: 125px;
+                            position: absolute;
+                            top: 105px;
+
+
+                        }
+                        .lang-DIV{
+                            background-color:#ffffff;
+                            height: 40px;
+                            width: 100%;
+                            border-radius: 3px;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        
+                        
+                        }
+
+                            .HOVERD-not-active-lang{
+                                background-color: #1A4990;
+                                height: 8px;
+                                width: 3%;
+                                position: absolute;
+                                top: 97px;
+                                display: none;
+                            
+                            
+                            }
+
+
+                        .HOVERD-not-active{
+                            background-color: #1A4990;
+                            height: 8px;
+                            width: 6%;
+                            position: absolute;
+                            top: 97px;
+                            display: none;}
+                        
+                        .not-active-text{
+
+                            color: #4B4B4B;
+                            font-size: 1.3vw;
+                            font-family: 'Bebas Neue', cursive;
+                            margin: 0;
+
+                            position: relative;}
+
+
+                        .active-text{   
+                    
+                            color: #4B4B4B;
+                            font-size: 1.3vw;
+                            font-family: 'Bebas Neue', cursive;
+                            margin: 0;
+                            position: relative;
+
+                        }
+                            .lang-ul{    
+                                
+                                position: absolute;
+                                top: 105px;
+                                padding: 0;
+                                width: 3%;
+                                height: 2%;
+
+
+                            
+                            }
+
+
+                            .S-lang-div{
+                                display: none;
+                                background-color: #ffffff;
+                                height: 100%;
+                                width: 100%;
+                                z-index: 50;
+                                border-style: solid;
+                                border-color: #4b4b4b;
+                                border-width: 1px;
+                            }
+                            .HOVERD-H{
+                                height: 100%;
+                                width: 3%;
+                                background-color: #ffffff;
+                                position: absolute;
+                                display: none;
+                                z-index: -1;
+                                opacity: 0%;
+
+
+
+
+                            }
+
+
+                            .lang-t{
+                                color: #4b4b4b;
+                                font-size: 1.3vw;
+                                font-family: 'Bebas Neue', cursive;
+                                margin: 0;
+                                top: 12%;
+                                position: relative;
+                            
+                            }
+
+                         .PRODUCTS-M-TEXT{
+                            font-size: 1.3vw;
+                            font-family: 'Bebas Neue', cursive;
+                            color: #4B4B4B;
+                            margin: 20px;
+                        }
+                        .PRODUCTS-S-TEXT{
+                            font-size: 1vw;
+                            font-family: 'Bebas Neue', cursive;
+                            color: #4B4B4B;
+                            margin: 15px;
+            
+            
+            
+                        }
+                        .heavy-DIV{
+                            height: 100%;
+                            width: 33%;
+                            background-color: #ffffff;
+                            align-items: center;
+                            justify-content: center;}
+                        
+                        
+                        
+                        .Prefabrication-DIV{
+                                height: 100%;
+                                width: 34%;
+                                background-color: #ffffff;
+                                align-items: center;
+                                justify-content: center;
+                                border-style: solid;
+                                border-color: #696969;
+                                border-bottom: none;
+                                border-width: 1px;
+                                border-top: none;
+                            
+                            }
+                            
+                            
+                            
+                           
+                        
+                        
+                        .Light-DIV{
+                            height: 100%;
+                            width: 33%;
+                            background-color: #ffffff;
+                            align-items: center;
+                            justify-content: center;}        
+            
+            
+            
+            
+            
+                        .PRODUCTS-M-ul{padding: unset;}
+
+                        .PRODUCTS-inventory {
+                            height: 280px;
+                            width: 40%;
+                            background-color: #ffffff;
+                            z-index: -100;
+                            position: absolute;
+                            top: -250px; 
+                            transition: top ease 0.5s;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        
+                        .small-inventory{
+                            height: 48px;
+                            width: 125px;
+                            background-color: #ffffff;
+                            opacity: 0%;
+                            position: absolute;
+                            display: none;
+                            top: 60px;
+                        
+                        } 
+
+                        .meun-div-MM{
+                            HEIGHT: 100%;
+                            WIDTH: 100%;
+                            DISPLAY: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                       
+                        /* ****************HOVER**********************/
+                        .lang-DIV:hover .S-lang-div{display: block;}
+                        .lang-DIV:hover .HOVERD-not-active-lang{display: block;}
+                        .lang-DIV:hover .HOVERD-H{display: block;}
+                        
+                        
+                        .S-lang-div:hover{background-color: #1A4990;}
+                        .S-lang-div:hover .lang-t{color: #ffffff;}
+                        
+
+                        .not-active-DIV:hover .HOVERD-not-active{display: block;}
+            
+                        .not-active-DIV:hover .active-DIV{background-color: #ffffff; }
+                        
+                        
+                        
+                        .PRODUCTS-S-TEXT:hover  {color: black;transform: scale(1.2);}
+                        .PRODUCTS-M-TEXT:hover  {color: black;transform: scale(1.2);}
+                         .Inventory-M:hover .PRODUCTS-inventory{top: 104px;}  
+                        .Inventory-M:hover .small-inventory{display: block;}
+                        
+                        
+                        
+                        
+                        /* ****************header PHONE**********************/
+                        @media only screen and (max-width: 900px) {
+                            
+                            
+                            header{ background-color: #ffffff;
+                                height: 60px;
+
+                            }
+                            .nav-W{
+                                height: 100%;
+                                background-color: #ffffff;
+
+
+                            }
+                            .logo-DIV {
+                                position: relative;
+                                height: 100%;
+                                width: 100%;
+                                display: flex;
+                                text-align-last: center;
+                                align-items: center;
+                                right: 0;
+                                flex-direction: row;
+                                flex-wrap: nowrap;
+                                align-content: center;
+                                justify-content: center;
+                                z-index: 10;
+                            }
+                            .logo-IMG {
+                                position: relative;
+                                width: 35%;
+                            }
+                            
+                            
+                            
+                            
+                            
+
+                            .meun-div-MM{
+                                position: absolute;
+
+                            }
+                            
+                            .meun-div-HMM
+                            {
+                                width: 45px;
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                flex-wrap: nowrap;
+                                align-content: center;
+                                justify-content: center;
+                                align-items: stretch;
+                                position: relative;
+                                right: 40%;
+                                z-index: 11;
+                            }
+                            .meun-meun{
+                                
+                                
+                                position: relative;
+                                background-color: #1A4990;
+                                height: 7%;
+                                margin: 5px;
+                            }
+
+                            .meun-div-m{
+                                position: absolute;
+                                /* display: none; */
+                                left: 0;
+                                top: -225px;
+                                width: 50%;
+                                transition: top ease 0.2s;
+                                height: 0;
+                                
+                            }
+                            .menu {
+                                list-style: none;
+                                display: flex;
+                                ALIGN-ITEMS: flex-end;
+                                padding: 0;
+                                margin: 0;
+                                flex-direction: column;
+                                align-content: center;
+                                justify-content: center;
+                                align-items: flex-start;
+                                position: relative;
+                                z-index: -5;
+                            }
+
+                            .menuItem {
+                                width: 100%;
+                            }
+                            .HOVERD-not-active {
+                                background-color: #1A4990;
+                                height: 3px;
+                                width: 50%;
+                                position: relative;
+                                top: 11px;
+                                display: none; 
+                                 
+                            }
+                            .not-active-DIV {
+                                background-color: #1A4990;
+                                height: 40px;
+                                width: 100%;
+                                text-align: center;
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: center;
+                                flex-direction: column;
+                                position: relative;
+                                border-radius: 0px;
+                            }
+                            
+                            .HOVERD-not-active-lang {
+                                background-color: #1A4990;
+                                height: 3px;
+                                width: 50%;
+                                position: relative;
+                                top: 11px;
+                            }
+                            .lang-DIV {
+                                background-color: #1A4990;
+                                height: 40px;
+                                width: 100%;
+                                border-radius: 0px;
+                                text-align: center;
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                position: relative;
+                            }
+                            .HOVERD-H{display: none;}
+                            .active-text{
+                                font-size: 20px;
+                                position: relative;
+                                right: -15%;
+                                color: #ffffff;
+
+                            }
+                            .not-active-text{
+                                font-size: 20px;
+                                position: relative;
+                                right: -15%;
+                                color: #ffffff;
+
+                            }
+                            .lang-li{
+                                width: 100%;
+                                height: 100%;
+                            }
+                            
+                            .lang-ul {
+                                position: absolute;
+                                top: 39px;
+                                padding: 0;
+                                width: 100%;
+                                height: 40px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                align-content: center;
+                                flex-direction: row;
+                                display: none;
+                            }
+                            .lang-t {
+                                font-size: 20px;
+
+                            }
+                            .PRODUCTS-inventory {
+                                height: 700%;
+                                width: 100%;
+                                top: -250px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                transition: top ease 0.5s;
+                            }
+                            
+                            
+                            .Inventory-M {transition: all 0.5s;}
+
+
+
+                      
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            .Inventory-M:hover{z-index: 5;}
+                            
+                            .Inventory-M:hover .PRODUCTS-inventory{z-index: 1;}
+                            
+                            
+                            .Inventory-M:hover{margin-bottom: 279px;}
+                            
+                            
+                            
+                            .Inventory-M:hover .PRODUCTS-inventory {top: 39px;}
+                            
+                            
+                            .not-active-DIV:hover .HOVERD-not-active{display: none;}
+                            .lang-DIV:hover .HOVERD-not-active-lang{display: none;}
+                            .meun-div-MM:hover .meun-div-m{top: 60px;}
+                            .lang-DIV:hover .lang-ul {display: flex;}
+                            .not-active-DIV:hover .not-active-text{transform: scale(1.2);}
+                            .lang-DIV:hover .active-text{transform: scale(1.2);}
+                            .not-active-DIV:hover .active-text{transform: scale(1.2);}
+
+
+                            
+                            
+                            
+                            
+
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        }
+                        
+                        /* ****************background PHONE**********************/
+
+                        .container{
+
+                            position: relative;
+                            TOP: -15px;
+                            z-index: -1;
+                            height: 850px;
+                            overflow: hidden;
+                            width: 100%;
+                            background-color: #ffffff;
+                            padding: 0;
+                        }
+                        .carousel{                
+                            POSITION: absolute;
+                            z-index: -1;
+                            overflow: hidden;
+                            width: 100%;
+                            background-color: #000000;
+            
+                        }
+            
+            
+                        .background{
+            
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: relative;
+                            z-index: 1;
+            
+            
+                        }
+                        .Wallpaper img {
+                            background-size: cover;
+                        }
+                        
+                        .section-W{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: relative;
+                            TOP: 450px;
+                        }            
+                        .WallpaperIMG{float: left;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            position: relative;
+                            top: 7px;
+                            z-index: -20;
+            
+            
+            
+                        }
+                        .slide-box
+                        {
+                            height: 210px;
+                            width: 540px;
+                            position: absolute;
+                            top: 460px;
+                            right: 1130px;
+                            border-radius: 5px;
+            
+                        }
+                        .slide-box-W
+                        {
+                            background-color: #ffffff;
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            opacity: 60%;
+                            border-radius: 5px;
+                            z-index: -10;
+                        
+                        }
+            
+            
+                        .slide-text-S{
+                            width: 100%;
+                            height: 75%;
+                        }
+                        .slide-text-M{
+                            width: 100%;
+                            height: 25%;
+                            text-align: center;
+                        }
+            
+            
+                        .W-M{     
+                            
+                            height: 210px;
+                            width: 540px;
+                            position: relative;
+                            top: 0px;
+                            right: 476px;
+            
+            
+            
+                        }
+                        .W-button-UL
+                            { list-style: none;
+                                display: flex;
+                                ALIGN-ITEMS: flex-end;}
+            
+                            
+                        .button{height: 25px;
+                            width: 25px;
+                            background-color: #1A4990;
+                            border-radius: 50%;
+            
+                        }
+                        .W-button-li{
+            
+                            padding: 3px 3px;
+                        }
+                        .W-button-DIV{
+                            position: relative;
+                            top: -49px;
+                            right: 23px;
+                        }
+                        .W-DIV-M{
+                            height: 230px;
+                            width: 540px;
+                            position: relative;
+                            top: -63px;
+                            border-radius: 5px;
+                        }
+                        .W-DIV{
+            
+                            height: 210px;
+                            width: 540px;
+                            background-color: white;
+                            position: ABSOLUTE;
+                            top: 0;
+                            border-radius: 5px;
+                            Z-INDEX: -1;
+                            OPACITY: 65%;
+                        }
+                        .W-DIV-M-TEXT{
+                            COLOR: #000000;
+                            FONT-SIZE: 35px;
+                            margin: 0;
+                            font-family: 'Bebas Neue', cursive;
+                        }
+                        .W-DIV-S-TEXT{
+                            FONT-SIZE: 20px;
+                            COLOR: #000000;
+                            margin: 0;
+                            padding: 10px;
+                            
+                        }
+                        .W-DIV-M-TEXT-DIV{
+                            text-align: center;
+            
+            
+                        }
+                        ol.carousel-indicators li,
+                        ol.carousel-indicators li.active {
+                            height: 30px;
+                            width: 30px;
+                            border-radius: 50%;
+                            background: #ffffff;
+                            border-style: none;
+                            position: relative;
+                            top: -359px;
+                            right: 654px;
+                            margin: 0;
+                            margin-left: 5px;
+                        
+                        }
+                        
+                        ol.carousel-indicators li.active {
+                                
+                            background: #1A4990;}
