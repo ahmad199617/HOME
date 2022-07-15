@@ -422,8 +422,9 @@
                                 
                                 position: relative;
                                 background-color: #1A4990;
-                                height: 7%;
+                                height: 8%;
                                 margin: 5px;
+                                border-radius: 10px;
                             }
 
                             .meun-div-m{
@@ -531,18 +532,66 @@
                                 font-size: 20px;
 
                             }
+                            
                             .PRODUCTS-inventory {
-                                height: 700%;
+                                height: 300%;
                                 width: 100%;
-                                top: -250px;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
                                 transition: top ease 0.5s;
+                                flex-direction: column;
+
                             }
                             
                             
-                            .Inventory-M {transition: all 0.5s;}
+                            .Inventory-M {transition: all 0.5s, z-index .2s 1s;
+                            
+                            
+                            }
+                            
+                            .PRODUCTS-M-ul {
+                                padding: unset;
+                                display: none;
+                            }
+                            
+                            .PRODUCTS-M-TEXT {
+                                font-size: 20px;
+                                font-family: 'Bebas Neue', cursive;
+                                color: #4B4B4B;
+                                position: relative;
+                                right: -52px;
+                                margin: 0;
+                            }
+                            .Light-DIV {
+                                height: 100%;
+                                width: 100%;
+                                background-color: #ffffff;
+                                align-items: center;
+                                justify-content: flex-start;
+                                flex-direction: row;
+                                display: flex;
+                            }
+                            .Prefabrication-DIV {
+                                height: 100%;
+                                width: 100%;
+                                background-color: #ffffff;
+                                align-items: center;
+                                justify-content: flex-start;
+                                flex-direction: row;
+                                display: flex;
+                                border-style: none;
+                            }
+                            .heavy-DIV {
+                                height: 100%;
+                                width: 100%;
+                                background-color: #ffffff;
+                                align-items: center;
+                                justify-content: flex-start;
+                                flex-direction: row;
+                                display: flex;
+                            }
+                            
 
 
 
@@ -570,12 +619,12 @@
                             
                             
                             
-                            .Inventory-M:hover{z-index: 5;}
+                             .Inventory-M:hover{z-index: 1;}
                             
-                            .Inventory-M:hover .PRODUCTS-inventory{z-index: 1;}
+                           /* .Inventory-M:hover .PRODUCTS-inventory{z-index: 1;}  */
                             
                             
-                            .Inventory-M:hover{margin-bottom: 279px;}
+                            .Inventory-M:hover{margin-bottom: 119px;}
                             
                             
                             
@@ -589,6 +638,7 @@
                             .not-active-DIV:hover .not-active-text{transform: scale(1.2);}
                             .lang-DIV:hover .active-text{transform: scale(1.2);}
                             .not-active-DIV:hover .active-text{transform: scale(1.2);}
+                            .Inventory-M:hover .small-inventory{display: none;}
 
 
                             
@@ -607,21 +657,21 @@
                         
                         }
                         
-                        /* ****************background PHONE**********************/
+                        /* **************** background **********************/
 
                         .container{
 
                             position: relative;
                             TOP: -15px;
                             z-index: -1;
-                            height: 850px;
+                            /* height: 850px; */
                             overflow: hidden;
                             width: 100%;
                             background-color: #ffffff;
                             padding: 0;
                         }
                         .carousel{                
-                            POSITION: absolute;
+                            POSITION: relative;
                             z-index: -1;
                             overflow: hidden;
                             width: 100%;
@@ -784,3 +834,303 @@
                         ol.carousel-indicators li.active {
                                 
                             background: #1A4990;}
+                            
+                        
+                        /* ****************background PHONE**********************/
+                        
+                        @media only screen and (max-width: 900px) {
+                            
+                        ol.carousel-indicators li,
+                        ol.carousel-indicators li.active {
+                            height: 20px;
+                            width: 20px;
+                            border-radius: 50%;
+                            background: #ffffff;
+                            border-style: none;
+                            position: relative;
+                            top: 0px;
+                            right: 0px;
+                            margin: 0;
+                            margin-left: 5px;
+                        
+                        }
+                        
+                        ol.carousel-indicators li.active {
+                                
+                            background: #1A4990;}
+
+
+                        .carousel-inner {
+                            position: relative;
+                            width: 100%;
+                            overflow: hidden;
+                            height: 96vh;
+                            }
+
+
+
+
+                        }
+                        .item{
+                            height: 100%;
+                            width: 100%;
+                        }
+
+                        
+                        .WallpaperIMG {
+                            width: 100%;
+                            height: 100%;
+
+                        }
+                        
+                        .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+                            display: block;
+                            max-width: 100%;
+                            height: 100%; 
+                        }
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                        /* ****************PRODUCTS **********************/
+                        .PRODUCTS-section {
+                            display: flex;
+                            align-items: stretch;
+                            justify-content: center;
+                            flex-direction: row;
+                            margin-bottom: 40px;
+                            margin-top: 50px;
+                        }
+                        .PRODUCTS-div {
+                            width: 180px;
+                            height: 180px;
+                            background-color: #ffffff;
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 15px #898989;
+                            display: flex;
+                            flex-direction: column;
+                            align-content: center;
+                            align-items: center;
+                        }
+                        .PRODUCTS-img-div {
+                            height: 100%;
+                            overflow: hidden;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        .PRODUCTS-div-text{
+                            position: absolute;
+                        }
+                        .PRODUCTS-text{
+                            position: relative;
+                            top: 145px;
+                            font-family: 'Bebas Neue', cursive;
+                            font-size: 25px;
+                            margin: 0;
+                        }
+                        .PRODUCTS-img{
+                            height: 35%;
+                        }
+
+
+                        /* ****************PRODUCTS PHONE**********************/
+                        @media only screen and (max-width: 900px) {
+
+                            .PRODUCTS-div {
+                                width: 100px;
+                                height: 100px;
+
+                            }
+
+                            .PRODUCTS-text {
+                                top: 78px;
+                            }
+                            
+                            .PRODUCTS-text{
+                                position: relative;
+                                top: 77px;
+                                font-family: 'Bebas Neue', cursive;
+                                font-size: 17px;
+                            }
+
+                            .PRODUCTS-div {
+                                margin-left: 10px;
+                                margin-right: 10px;
+
+                            }
+                            .PRODUCTS-section{
+                                margin-bottom: 40px;
+                                margin-top: 30px;
+                            }
+
+
+
+                        }
+
+                        /* ****************IN WORK **********************/
+                        .IN-WORK-section {
+                            position: relative;
+                            display: flex;
+                            flex-direction: row;
+                            height: 40px;
+                            width: 100%;
+                            margin-bottom: 50px;
+                        }
+                        .IN-WORK-DIV-R {
+                            position: relative;
+                            width: 50%;
+                            height: 100%;
+                            background-color: #1A4990;
+                        }
+
+                        .IN-WORK-DIV-L {
+                        position: relative;
+                        display: flex;
+                        width: 50%;
+                        height: 100%;
+                        align-items: center;
+                         }
+                         .IN-WORK-text {
+                            position: relative;
+                            font-family: 'Bebas Neue', cursive;
+                            font-size: 25px;
+                            right: -13px;
+                            margin: 0;
+                        }
+
+                        /* ****************IN WORK  PHONE**********************/ 
+                        @media only screen and (max-width: 900px) {
+                        .IN-WORK-section {
+                            position: relative;
+                            display: flex;
+                            flex-direction: row;
+                            height: 30px;
+                            width: 100%;
+                            margin-bottom: 60px;
+
+                        }
+                        .IN-WORK-text {
+                            position: relative;
+                            font-family: 'Bebas Neue', cursive;
+                            font-size: 20px;
+                            right: -13px;
+                            margin: 0;
+                        }
+                    }
+                      
+                    
+                    /* **************** story **********************/ 
+                    
+                    .story-section{position: relative;
+                        height: 200px;
+                        width: 100%;
+
+                    }
+                    
+                    .story-DIV {
+                        position: relative;
+                        height: 100%;
+                        width: 100%;
+                        background-color: #ffffff;
+                        display: flex;
+                        align-content: center;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                    }
+
+
+                    .story-img-div{
+                        height: 130px;
+                        width: 130px;
+                        border-radius: 120px;
+                        background-color: #000000;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        overflow: hidden;
+                        display: flex;
+                        align-content: center;
+                        justify-content: center;
+                        border-style: solid;
+                        border-width: 1px;
+                        border-color: #4b4b4b;
+
+
+
+                    }
+                    
+                        
+                        
+                        .story-text-div{position: absolute;}
+                    
+                    
+                    
+                        .story-text{
+                        position: relative;
+                        top: 140px;
+                        font-family: 'Bebas Neue', cursive;
+                        margin: 0;
+                        font-size: 20px;
+                        color: #1A4990;
+                        
+                        
+                        }
+                   /* **************** story PHONE **********************/
+                   @media only screen and (max-width: 900px) {
+                        .story-section {
+                            position: relative;
+                            height: 49px;
+                            width: 100%;
+                        }
+                        .story-DIV {
+                            position: relative;
+                            height: 100%;
+                            width: 100%;
+                            background-color: #ffffff;
+                            display: flex;
+                            align-content: center;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: row;
+                        }
+                        .story-img-div {
+                            height: 80px;
+                            width: 80px;
+                            border-radius: 140px;
+                            background-color: #000000;
+                            margin-left: 5px;
+                            margin-right: 5px;
+                            overflow: hidden;
+                            display: flex;
+                            align-content: center;
+                            justify-content: center;
+
+                        }
+                        .story-text {
+                            position: relative;
+                            top: 85px;
+                            font-family: 'Bebas Neue', cursive;
+                            margin: 0;
+                            font-size: 15px;
+                            color: #1A4990;
+                        }
+                    
+                    
+                    
+                    
+                    }
+                    
