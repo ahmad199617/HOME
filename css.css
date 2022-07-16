@@ -1426,7 +1426,7 @@
                 
                 
                 .phone-section{
-                    height: 800px;
+                    height: 700px;
                     width: 100%;
                     display: flex;
                     align-content: center;
@@ -1489,12 +1489,12 @@
                 
                 .text-PROJECT-M{
                     color: #1a4990;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-family: fantasy;
                     margin: 0;
                 }
                 .text-PROJECT-s{
-                    font-size: 20px;
+                    font-size: 15px;
                     margin: 0;
                 }
 
