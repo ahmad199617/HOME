@@ -361,7 +361,7 @@
                         
                         
                         /* ****************header PHONE**********************/
-                        @media only screen and (max-width: 900px) {
+                        @media only screen and (max-width: 1000px) {
                             
                             
                             header{ background-color: #ffffff;
@@ -664,18 +664,18 @@
                             position: relative;
                             TOP: -15px;
                             z-index: -1;
-                            /* height: 850px; */
                             overflow: hidden;
                             width: 100%;
                             background-color: #ffffff;
                             padding: 0;
+                            /* height: 92vh; */
                         }
                         .carousel{                
                             POSITION: relative;
                             z-index: -1;
                             overflow: hidden;
                             width: 100%;
-                            background-color: #000000;
+                            background-color: #ffffff;
             
                         }
             
@@ -703,25 +703,37 @@
                         }            
                         .WallpaperIMG{float: left;
                             width: 100%;
-                            height: 100%;
+                            height: 92vh;
                             object-fit: cover;
                             position: relative;
                             top: 7px;
                             z-index: -20;
+
+                            
             
             
             
                         }
-                        .slide-box
-                        {
-                            height: 210px;
-                            width: 540px;
+                        .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+                            display: block;
+                            max-width: 100%;
+                            height: 92vh;
+                        }
+                        .slide-box {
+                            height: 230px;
+                            width: 100%;
                             position: absolute;
-                            top: 460px;
-                            right: 1130px;
                             border-radius: 5px;
-            
                         }
+
+                        .slide-div-PO {
+                            position: relative;
+                            top: 482px;
+                            right: -190px;
+                            width: 30%;
+                            height: 100%;
+                        }
+
                         .slide-box-W
                         {
                             background-color: #ffffff;
@@ -809,6 +821,8 @@
                             COLOR: #000000;
                             margin: 0;
                             padding: 10px;
+                            font-family: 'Roboto Slab', serif;
+
                             
                         }
                         .W-DIV-M-TEXT-DIV{
@@ -816,8 +830,8 @@
             
             
                         }
-                        ol.carousel-indicators li,
-                        ol.carousel-indicators li.active {
+                        .OL-background li,
+                        .OL-background li.active {
                             height: 30px;
                             width: 30px;
                             border-radius: 50%;
@@ -831,31 +845,35 @@
                         
                         }
                         
-                        ol.carousel-indicators li.active {
+                        .OL-background li.active {
                                 
                             background: #1A4990;}
+
+
+                        .slide-div-PO{position: relative;}
+                        
                             
                         
                         /* ****************background PHONE**********************/
                         
-                        @media only screen and (max-width: 900px) {
+                        @media only screen and (max-width: 1000px) {
                             
-                        ol.carousel-indicators li,
-                        ol.carousel-indicators li.active {
+                        .OL-background li,
+                        .OL-background li.active {
                             height: 25px;
                             width: 25px;
                             border-radius: 50%;
                             background: #ffffff;
                             border-style: none;
                             position: relative;
-                            top: 0px;
+                            top: -55px;
                             right: 0px;
                             margin: 0;
                             margin-left: 5px;
                         
                         }
                         
-                        ol.carousel-indicators li.active {
+                        .OL-background li.active {
                                 
                             background: #1A4990;}
 
@@ -870,7 +888,7 @@
 
 
 
-                        }
+                        
                         .item{
                             height: 100%;
                             width: 100%;
@@ -888,7 +906,65 @@
                             max-width: 100%;
                             height: 100%; 
                         }
-                        
+                        .slide-box {
+                            height: 220px;
+                            width: 100%;
+                            top: 39vh;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            right: 0;
+                        }
+
+                        .slide-box-W {
+
+                            opacity: 0%;
+                        }
+                        .slide-text-M {
+
+                            height: 25%;
+                            text-align: center;
+                            background-color: #1a4990;
+                            display: flex;
+                            align-content: center;
+                            justify-content: center;
+                            align-items: center;
+                            width: auto;
+                        }
+                        .W-DIV-M-TEXT {
+                            COLOR: #ffffff;
+                            FONT-SIZE: 40px;
+                            margin: 0;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                        .slide-text-S {
+                            width: 80%;
+                            height: 75%;
+                        }
+                        .W-DIV-S-TEXT {
+                            FONT-SIZE: 25px;
+                            COLOR: #ffffff;
+                            margin: 0;
+                            padding: 10px;
+                        }
+                        .W-DIV-S-TEXT{display: none;}
+
+                        .slide-div-PO {
+                            position: relative;
+                            height: 220px;
+                            width: 100%;
+                            top: 0; 
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            right: 0;
+                        }
+
+
+
+
+                    }
 
 
 
@@ -967,7 +1043,7 @@
 
 
                         /* ****************PRODUCTS PHONE**********************/
-                        @media only screen and (max-width: 900px) {
+                        @media only screen and (max-width: 1000px) {
 
                             .PRODUCTS-div {
                                 width: 100px;
@@ -1051,7 +1127,7 @@
                         }
 
                         /* ****************IN WORK  PHONE**********************/ 
-                        @media only screen and (max-width: 900px) {
+                        @media only screen and (max-width: 1000px) {
                         .IN-WORK-section {
                             position: relative;
                             display: flex;
@@ -1128,7 +1204,7 @@
 
 
                    /* **************** story PHONE **********************/
-                   @media only screen and (max-width: 900px) {
+                   @media only screen and (max-width: 1000px) {
                         .story-section {
                             position: relative;
                             height: 49px;
@@ -1217,7 +1293,7 @@
 
                         
                         /* ****************IN WORK  PHONE**********************/ 
-                        @media only screen and (max-width: 900px) {
+                        @media only screen and (max-width: 1000px) {
                         .Lprojector-section {
                             position: relative;
                             display: flex;
@@ -1235,5 +1311,232 @@
                             margin: 0;
                             
                         }
-                    }                       
+                    }
+
+
+                        /* ****************last project**********************/
+                        .projector-info-section {
+                            position: relative;
+                            width: 100%;
+                            height: 500px;
+                            display: flex;
+                            flex-flow: row nowrap;
+                            place-content: stretch center;
+                            align-items: center;
+                            margin-bottom: 60px;
+                            margin-top: 60px;
+                        }
+                        
+                        .projector-info-div {
+                            position: relative;
+                            height: 100%;
+                            width: 16%;
+                            margin-left: 35px;
+                            margin-right: 35px;
+                        }
+                        
+                        .projector-info-img-div{
+                            position: relative;
+                            height: 80%;
+                            width: 100%;
+                            overflow: hidden;
+                            display: flex;
+                            align-content: center;
+                            justify-content: center;
+                        }
+                        
+                        
+                        .projector-info-text-div{
+                            position: relative;
+                            height: 20%;
+                            width: 100%;
+                        }
+                        .projector-info-img{
+                            height: -webkit-fill-available;
+                            transition: all 0.2s;
+                        }
+                        .projector-info-text-M{
+                            color: #1A4990;
+                            font-family: 'Bebas Neue', cursive;
+                            font-size: 25px;
+
+                            
+                            
+                            position: relative;
+                            margin: 0;
+                        }
+                        
+                        .projector-info-text-line{
+                            position: relative;
+                            width: 100%;
+                            height: 1px;
+                            background-color: #414141;
+                        }
+                        
+                        .projector-info-text-S{
+                            position: relative;
+                            margin: 0;
+                            font-family: "Roboto Slab", serif;
+                            font-size: 16px;
+                        }
+             /* ****************last project hover**********************/
+             .projector-info-img-div:hover .projector-info-img{transform: scale(1.2);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* ****************project phone**********************/
+                
+            
+            
+            
+            /****/.phone-section{display: none;}
+                                    
+                
+                
+            @media only screen and (max-width: 1000px) {
+                
+                
+                .projector-info-section{
+                    display: none;
+                }
+                
+                
+                
+                .phone-section{
+                    height: 800px;
+                    width: 100%;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    position: relative;
+                    margin-bottom: 30px;
+                }
+                .phone-container{
+                    width: 90%;
+                    height: 100%;
+
+                }
+                .PROJECT-DIV{height: 100%;
+                width: 100%;}
+                .carousel {
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                }
+                .PROJECT-phone {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                }
+                .PROJECT-phone{
+                    height: 100%;
+                    width: 100%;}
+                
+                .img-div{
+                
+                    width: 100%;
+                    height: 80%;
+                    overflow: hidden;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: center;
+                    border-style: solid;
+                    border-width: 1px;
+
+                }
+                .text-div {
+                    width: 100%;
+                    height: 20%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .img-project{
+                    height: 100%;
+                    transition: all 0.3s;
+                }
+                .text-PROJECT-line {
+                    height: 1px;
+                    width: 100%;
+                    background-color: rgb(65, 65, 65);
+                    align-self: stretch;
+                }
+                
+                .text-PROJECT-M{
+                    color: #1a4990;
+                    font-size: 25px;
+                    font-family: fantasy;
+                    margin: 0;
+                }
+                .text-PROJECT-s{
+                    font-size: 20px;
+                    margin: 0;
+                }
+
+                .PROJECT-phoneOL li {
+                    width: 40px;
+                    height: 40px;
+                    margin: 0;
+                    background-color: #fff;
+                    border-style: solid;
+                    border-color: black;
+                    border-radius: 50%;
+
+                }
+                .PROJECT-phoneOL .active {
+                    width: 40px;
+                    height: 40px;
+                    background-color: #1A4990;
+                }
+                .PROJECT-phoneOL {
+                    position: relative;
+                    position: relative;
+                    right: 0;
+                    margin: 0;
+                    left: 0;
+                    top: 0;
+
+                }
+                .phone-carousel{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    justify-content: center;
+                    align-items: center;}
+
+
+
+
+                .img-div:hover .img-project{transform: scale(1.2);}
+                .li-PROJECT{position: relative;}
+            }
+                    
+
+
                        
