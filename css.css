@@ -1528,6 +1528,7 @@
                     flex-direction: column;
                     align-content: center;
                     justify-content: center;
+                    z-index: auto;
                     align-items: center;}
 
 
