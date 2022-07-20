@@ -683,6 +683,8 @@
 
                             width: 100%;
                             height: 93vh;
+                            background-repeat: no-repeat;
+                            background-size: cover;
 
                         }
                         .text-area-DIV{
@@ -763,6 +765,13 @@
                             }
                         /* ***************** background phone*****************     */
                         @media only screen and (max-width: 1000px) {
+
+                        .background-IMG-DIV{
+
+                            width: 100%;
+                            height: 100vh;
+    
+                        }
 
                         .text-area-DIV {
                             width: 100%;
