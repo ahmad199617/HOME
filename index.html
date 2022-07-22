@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>celikerler</title>
+        <link rel="icon" type="image" href="./images/icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+        
+        
+        <script>
+                
+                
+    //***********************************************************************
+    
+
+ 
+
+
+
+    
+    
+    document.addEventListener("DOMContentLoaded", function(){
+        
+                {myVar = setTimeout(showPagex, 1500);}
+                {myVar = setTimeout(showPage, 1000);}
+                
+                
+                function showPage() {
+                document.getElementById("LoadingID").style.opacity = "0%";}
+                
+                function showPagex() {
+                document.getElementById("LoadingID").style.display = "none";}  
+                
+                
+                
+                let vh = window.innerHeight * 0.01;
+                document.documentElement.style.setProperty('--vh', `${vh}px`);
+                
+
+                                
+                
+ 
+        
+        
+
+               
+                {
+                $('[lang="tr"]').show();
+                $('[lang="en"]').hide();
+                $('[lang="ar"]').hide();}    
+               
+                var lang=localStorage.getItem('lang');
+                localStorage.getItem('lang');   
+                if(lang==("en")){
+                $('[lang="en"]').show();
+                $('[lang="tr"]').hide();
+                $('[lang="ar"]').hide();}
+                
+                
+                if(lang==("tr")){
+                $('[lang="tr"]').show();
+                $('[lang="en"]').hide();
+                $('[lang="ar"]').hide();}
+                
+                if(lang==("ar")){
+                $('[lang="ar"]').show();
+                $('[lang="en"]').hide();
+                $('[lang="tr"]').hide();}});
+
+
+                
+    
+    
+                
+                $(document).ready(function () {
+                    $('#switch-lang-en').click(function() {
+                        $('[lang="tr"]').hide();
+                        $('[lang="en"]').show();
+                        $('[lang="ar"]').hide();
+                        localStorage.setItem('lang', 'en');
+                    });
+                });
+                
+    
+                $(document).ready(function () {
+                    $('#switch-lang-tr').click(function() {
+                        $('[lang="tr"]').show();
+                        $('[lang="en"]').hide();
+                        $('[lang="ar"]').hide();
+                        localStorage.setItem('lang', 'tr');
+                    });
+                });
+
+
+                $(document).ready(function () {
+                    $('#switch-lang-ar').click(function() {
+                        $('[lang="ar"]').show();
+                        $('[lang="en"]').hide();
+                        $('[lang="tr"]').hide();
+                        localStorage.setItem('lang', 'ar');
+                    });
+                });
+                $('.carousel').carousel({pause: "false"});
+
+
+
+                
+                
+
+                
+                
+                
+                //************************************************************************
+    
+                
+                </script>
+    </head>
+    <body>
+        
+        <DIV class="Loading" id="LoadingID" style="height: 100%;width: 100%;background-color: #ffffff;position: fixed;top: 0;z-index: 100;right: 0;transition: 0.5s; display: flex;align-content: center;justify-content: center;align-items: center;">
+           <div class="lds-facebook"><div></div><div></div><div></div></div></DIV>
+
+
+
+
+        <header>
+            <div class="nav-W"></div>
+        
+           
+            <DIV class="logo-DIV"><a href="Home.html"><img class="logo-IMG" src="./images/celikerler-logo.png" alt="logo"></a></DIV>
+                <div class="meun-div-MM">
+                    <div class="meun-div-HMM">
+                        <div class="meun-meun"></div>
+                        <div class="meun-meun"></div>
+                        <div class="meun-meun"></div>
+
+
+
+
+                    </div>
+            
+            
+            
+                    <div class="meun-div-m"><UL class="menu">
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="active-text"><span lang="en">HOME</span><span lang="tr">ANA SAYFA</span><span lang="ar">الرئيسيه</span></p>
+                    <!-- <DIV class="HOVER"></DIV> -->
+                    <DIV class="HOVERD-not-active"></DIV>
+                    
+                    </DIV></a></li>
+                    <li class="menuItem"><DIV class="not-active-DIV Inventory-M"><p class="not-active-text">PRODUCTS</p>
+                        <DIV class="HOVERD-not-active"></DIV>
+                    
+                    <div class="small-inventory"></div> 
+                    <div class="PRODUCTS-inventory">
+                        <div class="heavy-DIV">
+                        
+                            <div><a href="###"><p class="PRODUCTS-M-TEXT">Heavy seel</p></a></div>
+                            <div>
+                                <UL class="PRODUCTS-M-ul">
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Çok Katlı Çelik Binalar</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Endüstriyel Çelik Yapılar</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Çelik Hangar Binaları</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Çelik Yapı Teknik Özellikleri</p></a></LI>
+                                 </UL>
+                            </div>
+                    
+                        </div>
+                        <div class="Prefabrication-DIV">
+                        
+                            <div><a href="###"><p class="PRODUCTS-M-TEXT">Prefabrication</p></a></div>
+                            <div>
+                                <UL class="PRODUCTS-M-ul">
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Prefabrik Ev Teknik Özellikleri</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Prefabrik Ev Fiyatları</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Prefabrik Villa</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Prefabrik Dubleks Evler</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Tek Katlı Prefabrik Evler</p></a></LI>
+                                 </UL>
+                            </div>
+                    
+                        </div>
+                        <div class="Light-DIV">
+                        
+                            <div><a href="###"><p class="PRODUCTS-M-TEXT">Light steel</p></a></div>
+                            <div>
+                                <UL class="PRODUCTS-M-ul">
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Çelik Ev Teknik Özellikleri</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Hafif Çelik Okul ve Hastaneler</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Hafif Çelik Ofisler</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">İki ve Çok Katlı Çelik Evler</p></a></LI>
+                                    <LI><a href="###"><p class="PRODUCTS-S-TEXT">Tek Katlı Çelik Evler</p></a></LI>
+                                 </UL>
+                            </div>
+                    
+                        </div>
+                        
+        
+        
+        
+                    </div>  
+                    
+                    
+                    
+                   
+                    </DIV></li>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">REFERENCES</span><span lang="tr">REFERANSLAR</span><span lang="ar">المراجع</span></p>
+                    <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">OUR NEWS</span><span lang="tr">HABERLERIMIZ</span><span lang="ar">أخبارنا</span></p>
+                        <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">ABOUT US</span><span lang="tr">HAKKIMIZDA</span><span lang="ar">من نحن</span></p>
+                        <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">CONTACT</span><span lang="tr">İLETİŞİM</span><span lang="ar">اتصل بنا</span></p>
+                        <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
+                    <li class="menuItem menuItem-lang"><DIV class="lang-DIV"><p class="active-text"><span lang="en">EN</span><span lang="tr">TR</span><span lang="ar">AR</span></p>
+                        <DIV class="HOVERD-H"></DIV>
+                        <DIV class="HOVERD-not-active-lang"></DIV>
+                        <ul class="lang-ul">
+                            
+                            <LI class="lang-li"><a href="#"><DIV id="switch-lang-en" class="S-lang-div"><p class="lang-t">EN</p></DIV></a></LI>
+                            <LI class="lang-li"><a href="#"><DIV id="switch-lang-tr" class="S-lang-div"><p class="lang-t">TR</p></DIV></a></LI>
+                            <LI class="lang-li"><a href="#"><DIV id="switch-lang-ar" class="S-lang-div"><p class="lang-t">AR</p></DIV></a></LI>
+                        
+                        
+                        </ul>
+                    
+                    
+                    
+                    
+                    </DIV></li>
+                </UL></div></div>
+            </DIV>
+        </header>
+        
+        <!-- **************background*************** -->
+        <section class="background-section">
+
+            <div class="container background-container">
+                
+                
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="7000">
+                    
+                    <div class="carousel-inner">
+                        
+                        <!-- ***************************** --> 
+                        <div class="item active background-IMG-DIV backgroundS-1 ">
+                            <div class="text-area-DIV">
+                                <div class="text-area-background"></div>
+                                <div class="text-area-M"><p class="text-area-T-M">Heavy Seel</p></div>
+                                <div class="text-area-S"><p class="text-area-T-S">Modern teknoloji ile imal edilen prefabrik yapılar güvenli, 
+                                    konforlu, uzun ömürlü, ekonomik ve hızlı çözüm sağlaması
+                                    amacı ile tercih edilir. </p></div>
+
+
+                            </div>
+
+
+                        </div>
+                       <!-- ***************************** -->                         <!-- ***************************** --> 
+                        <div class="item  background-IMG-DIV backgroundS-2 ">
+                            <div class="text-area-DIV">
+                                <div class="text-area-background"></div>
+                                <div class="text-area-M"><p class="text-area-T-M">Prefabrication</p></div>
+                                <div class="text-area-S"><p class="text-area-T-S">Modern teknoloji ile imal edilen prefabrik yapılar güvenli, 
+                                    konforlu, uzun ömürlü, ekonomik ve hızlı çözüm sağlaması
+                                    amacı ile tercih edilir. </p></div>
+
+
+                            </div>
+
+
+                        </div>
+                       <!-- ***************************** -->                         <!-- ***************************** --> 
+                        <div class="item  background-IMG-DIV backgroundS-3 ">
+                            <div class="text-area-DIV">
+                                <div class="text-area-background"></div>
+                                <div class="text-area-M"><p class="text-area-T-M">Light Steel</p></div>
+                                <div class="text-area-S"><p class="text-area-T-S">Modern teknoloji ile imal edilen prefabrik yapılar güvenli, 
+                                    konforlu, uzun ömürlü, ekonomik ve hızlı çözüm sağlaması
+                                    amacı ile tercih edilir. </p></div>
+
+
+                            </div>
+
+
+                        </div>
+                       <!-- ***************************** --> 
+                       
+                  
+
+                    
+                    
+
+                    </div>
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <ol class="carousel-indicators OL-background">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active lixactiveX"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class="lixactiveX"></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class="lixactiveX"></li>
+                      </ol>
+                      
+                      
+                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+        
+        
+        
+                </div>
+            
+            
+            </div>
+        
+        </section>
+        <!-- **************PRODUCTS*************** -->
+        <section class="PRODUCTS-section">
+            
+            
+            <div class="PRODUCTS-div">
+                <div class="PRODUCTS-img-div">
+                    <img class="PRODUCTS-img-HOVER" src="./images/P1.jpg" alt="">
+                    <img class="PRODUCTS-img" src="./images/10-agir-celik-yapilar-wu.png" alt="">
+                    
+
+                
+                </div>
+                <div class="PRODUCTS-div-text"><p class="PRODUCTS-text">Heavy Seel</p></div>
+            </div>
+            
+            
+            <div class="PRODUCTS-div">
+                <div class="PRODUCTS-img-div">
+                    <img class="PRODUCTS-img-HOVER" src="./images/P2.jpeg" alt="">
+                    <img class="PRODUCTS-img" src="./images/8-prefabrik-yapilar-zz.png" alt=""></div>
+                <div class="PRODUCTS-div-text"><p class="PRODUCTS-text">Prefabrication</p></div>
+            </div>
+           
+           
+            <div class="PRODUCTS-div">
+                <div class="PRODUCTS-img-div">
+                    <img class="PRODUCTS-img-HOVER" src="./images/S3.jpg" alt="">
+                    <img class="PRODUCTS-img" src="./images/7-celik-evler-o6.png" alt=""></div>
+                <div class="PRODUCTS-div-text"><p class="PRODUCTS-text">Light Steel</p></div>
+            </div>
+
+
+
+
+        </section>
+        <!-- **************IN-WORK-section*************** -->
+
+        <section class="IN-WORK-section">
+            <div class="IN-WORK-DIV-R"></div>
+            
+            <div class="IN-WORK-DIV-L">
+                <p class="IN-WORK-text">IN WORK</p>
+            </div>
+
+
+
+        </section>
+        
+        <section class="story-section">
+            <div class="story-DIV">
+                
+                <div class="story-img-div">
+                    <img class="img-story" src="./images/W1.jpg" alt="">
+                    <div class="story-text-div"><p class="story-text">Oto Galeri</p>
+                    </div>
+                </div>
+                
+                
+                
+                
+                <div class="story-img-div">
+                    <img class="img-story" src="./images/W2.jpg" alt="">
+                    <div class="story-text-div"><p class="story-text">Paletsan</p>
+                    </div>
+                </div>
+
+
+                <div class="story-img-div">
+                    <img class="img-story" src="./images/W3.jpg" alt="">
+                    <div class="story-text-div"><p class="story-text">Karnaz</p>
+                    </div>
+                </div>
+
+
+
+                <div class="story-img-div">
+                    <img class="img-story" src="./images/W4.jpg" alt="">
+                    <div class="story-text-div"><p class="story-text">Omkataş</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </section>
+        <!-- *************** latest Project************** -->
+        
+        <section class="Lprojector-section">
+            <div class="Lprojector-DIV-R"></div>
+            
+            <div class="Lprojector-DIV-L">
+                <p class="Lprojector-text">latest project</p>
+            </div>
+
+
+
+        </section>
+
+        
+        
+
+
+        <section class="projector-info-section">
+            
+            <div class="projector-info-div">
+                <div class="projector-info-img-div"><img class="projector-info-img" src="./images/W1.jpg" alt=""></div>
+                <div class="projector-info-text-div">
+                    <div class="projector-info-text-M"><p class="projector-info-text-MM">EUROSAN A.Ş.</p></div>
+                    <div class="projector-info-text-line"></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">PVC Pencte Ürtim tesisi</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Orduyeri, BARTIN</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Teslim Şekli : Anahtar Teslim</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Completion time 2 Month</p></div>
+                </div>
+
+
+
+            </div>
+            <div class="projector-info-div">
+                <div class="projector-info-img-div"><img class="projector-info-img" src="./images/W2.jpg" alt=""></div>
+                <div class="projector-info-text-div">
+                    <div class="projector-info-text-M"><p class="projector-info-text-MM">EUROSAN A.Ş.</p></div>
+                    <div class="projector-info-text-line"></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">PVC Pencte Ürtim tesisi</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Orduyeri, BARTIN</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Teslim Şekli : Anahtar Teslim</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Completion time 2 Month</p></div>
+                </div>
+
+
+
+            </div>
+            <div class="projector-info-div">
+                <div class="projector-info-img-div"><img class="projector-info-img" src="./images/W3.jpg" alt=""></div>
+                <div class="projector-info-text-div">
+                    <div class="projector-info-text-M"><p class="projector-info-text-MM">EUROSAN A.Ş.</p></div>
+                    <div class="projector-info-text-line"></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">PVC Pencte Ürtim tesisi</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Orduyeri, BARTIN</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Teslim Şekli : Anahtar Teslim</p></div>
+                    <div class="projector-info-text-S"><p class="projector-info-text-SS">Completion time 2 Month</p></div>
+                </div>
+
+
+
+            </div>
+            
+
+
+
+
+        </section>
+
+
+        <!-- *************** latest Project-phone************** -->
+        <section class="phone-section">
+
+            <div class="phone-container">
+                
+                
+                <div id="myCarousel-2"  class="carousel slide phone-carousel" data-ride="carousel" data-pause="false" data-interval="5000">
+                    
+                    <div class="carousel-inner PROJECT-phone">
+                        
+ 
+                        <div class="PROJECT-phone item active">
+                            <div class="PROJECT-DIV">
+                                <div class="img-div"><img class="img-project" src="./images/W1.jpg" alt=""></div>
+                                
+                                
+                                
+                                <div class="text-div">
+                                    <div class="text-PROJECT-div-M"><p class="text-PROJECT-M">Gonca Tekstil</p></div>
+                                    <div class="text-PROJECT-line"></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">PVC Pencte Ürtim tesisi</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Orduyeri, BARTIN</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Teslim Şekli : Anahtar Teslim</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Completion time 4 Month</p></div>
+
+                                </div>
+
+                            
+                            
+                            
+                            </div>
+                           
+                       </div>
+                  
+                        <!-- ***************************** -->
+                        
+                        <div class="PROJECT-phone item">
+                            <div class="PROJECT-DIV">
+                                <div class="img-div"><img class="img-project" src="./images/W2.jpg" alt=""></div>
+                                
+                                
+                                
+                                <div class="text-div">
+                                    <div class="text-PROJECT-div-M"><p class="text-PROJECT-M">Gonca Tekstil</p></div>
+                                    <div class="text-PROJECT-line"></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">PVC Pencte Ürtim tesisi</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Orduyeri, BARTIN</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Teslim Şekli : Anahtar Teslim</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Completion time 4 Month</p></div>
+
+                                </div>
+
+                            
+                            
+                            
+                            </div>
+                           
+                        </div>
+                      
+                         <!-- ***************************** -->
+                       
+                       
+                       
+                        <div class="PROJECT-phone item">
+                            <div class="PROJECT-DIV">
+                                <div class="img-div"><img class="img-project" src="./images/W1.jpg" alt=""></div>
+                                
+                                
+                                
+                                <div class="text-div">
+                                    <div class="text-PROJECT-div-M"><p class="text-PROJECT-M">Gonca Tekstil</p></div>
+                                    <div class="text-PROJECT-line"></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">PVC Pencte Ürtim tesisi</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Orduyeri, BARTIN</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Teslim Şekli : Anahtar Teslim</p></div>
+                                    <div class="text-PROJECT-div-S"><p class="text-PROJECT-s">Completion time 4 Month</p></div>
+
+                                </div>
+
+                            
+                            
+                            
+                            </div>
+                            
+                        </div>
+                    
+                         <!-- ***************************** -->
+                    
+                    
+                    </div>
+        
+        
+                    <ol class="carousel-indicators PROJECT-phoneOL">
+                        <li data-target="#myCarousel-2" data-slide-to="0" class="active li-PROJECT"></li>
+                        <li data-target="#myCarousel-2" data-slide-to="1" class="li-PROJECT"></li>
+                        <li data-target="#myCarousel-2" data-slide-to="2" class="li-PROJECT"></li>
+                    </ol>
+                      
+                      
+                </div>
+            
+            
+            </div>
+        
+        </section>
+
+        <!-- **************by the numbers*************** -->
+
+        <section class="by-numbers-section">
+            
+                <DIV class="by-numbers-IMG-M"><img  class="by-numbers-IMG" src="./images/BY THE NUMBERS.png" alt=""></DIV>
+                <DIV class="by-numbers-text-M">
+                    <DIV class="by-numbers-text-s">
+                        <div class="by-numbers-text-BIG-M"><p class="by-numbers-text-T-M">BY THE NUMBERS</p></div>
+                        <div class="by-numbers-text-BIG-S">
+                            <div class="by-numbers-text-S-S">
+                                <div class="by-numbers-text-W-S-S"><p class="by-numbers-text-T-S">COUNTRIES <br />00000</p></div>
+                                <div class="by-numbers-text-W-S-S"><p class="by-numbers-text-T-S">Ağır Çelik  <br />00000</p></div>
+
+
+                            </div>
+                            <div class="by-numbers-text-S-S">
+                                <div class="by-numbers-text-W-S-S"><p class="by-numbers-text-T-S">PREFABRİK  <br />00000</p></div>
+                                <div class="by-numbers-text-W-S-S"><p class="by-numbers-text-T-S">ÇELİK VİLLA  <br />00000</p></div>
+
+
+                            </div>
+                            <div class="by-numbers-text-S-S">
+                                <div class="by-numbers-text-W-S-S"><p class="by-numbers-text-T-S">ÇALIŞAN   <br />00000</p></div>
+                                <div class="by-numbers-text-W-S-S"><p class="by-numbers-text-T-S">PREFABRİK  <br />00000</p></div>
+
+
+                            </div>
+                        </div>
+                    </DIV>
+                </DIV>
+
+        </section>
+        
+        <!-- **************NEWS*************** -->
+
+        <section class="IN-WORK-section">
+            <div class="IN-WORK-DIV-R"></div>
+            
+            <div class="IN-WORK-DIV-L">
+                <p class="IN-WORK-text">Çelikerler Haberler</p>
+            </div>
+        </section>
+
+        
+        
+        <section class="NEWS-phone-section">
+
+            <div class="NEWS-phone-container">
+                
+                
+                <div id="myCarousel-3"  class="carousel slide NEWS-phone-carousel" data-ride="carousel" data-pause="false" data-interval="5000">
+                    
+                    <div class="carousel-inner NEWS-PROJECT-phone">
+                        
+ 
+                        <div class="NEWS-PROJECT-phone item active">
+                            <div class="NEWS-PROJECT-DIV">
+                                <div class="NEWS-img-div"><img class="NEWS-img-project" src="./images/h1.jpg" alt=""></div>
+                                
+                                
+                                
+                                <div class="NEWS-text-div">
+                                    <div class="NEWS-text-PROJECT-div-M"><p class="NEWS-text-PROJECT-M">2015.2.3</p></div>
+                                    <div class="NEWS-text-PROJECT-line"></div>
+                                    <div class="NEWS-text-PROJECT-div-S"><p class="NEWS-text-PROJECT-s">ÇELİKERLER, BATI KARADENİZ YAPI DEKORASYON VE MOBİLYA FUARI’NDAYDI</p></div>
+
+
+                                </div>
+
+                            
+                            
+                            
+                            </div>
+                           
+                       </div>
+
+                        <!-- ***************************** -->
+
+                       <div class="NEWS-PROJECT-phone item">
+                        <div class="NEWS-PROJECT-DIV">
+                            <div class="NEWS-img-div"><img class="NEWS-img-project" src="./images/h2.jpg" alt=""></div>
+                            
+                            
+                            
+                            <div class="NEWS-text-div">
+                                <div class="NEWS-text-PROJECT-div-M"><p class="NEWS-text-PROJECT-M">2015.2.3</p></div>
+                                <div class="NEWS-text-PROJECT-line"></div>
+                                <div class="NEWS-text-PROJECT-div-S"><p class="NEWS-text-PROJECT-s">ÇELİKERLER, BATI KARADENİZ YAPI DEKORASYON VE MOBİLYA FUARI’NDAYDI</p></div>
+
+
+                            </div>
+
+                        
+                        
+                        
+                        </div>
+                       
+                   </div>
+                  
+
+                    
+                    <!-- ***************************** -->
+
+                       <div class="NEWS-PROJECT-phone item">
+                        <div class="NEWS-PROJECT-DIV">
+                            <div class="NEWS-img-div"><img class="NEWS-img-project" src="./images/h3.jpg" alt=""></div>
+                            
+                            
+                            
+                            <div class="NEWS-text-div">
+                                <div class="NEWS-text-PROJECT-div-M"><p class="NEWS-text-PROJECT-M">2015.2.3</p></div>
+                                <div class="NEWS-text-PROJECT-line"></div>
+                                <div class="NEWS-text-PROJECT-div-S"><p class="NEWS-text-PROJECT-s">ÇELİKERLER, BATI KARADENİZ YAPI DEKORASYON VE MOBİLYA FUARI’NDAYDI</p></div>
+
+
+                            </div>
+
+                        
+                        
+                        
+                        </div>
+                       
+                   </div>
+                  
+
+                    
+                    <!-- ***************************** -->
+                    
+                    
+                    </div>
+        
+        
+                    <ol class="carousel-indicators NEWS-PROJECT-phoneOL">
+                        <li data-target="#myCarousel-3" data-slide-to="0" class="active NEWS-li-PROJECT"></li>
+                        <li data-target="#myCarousel-3" data-slide-to="1" class="NEWS-li-PROJECT"></li>
+                        <li data-target="#myCarousel-3" data-slide-to="2" class="NEWS-li-PROJECT"></li>
+                    </ol>
+                      
+                      
+                </div>
+            
+            
+            </div>
+        
+        </section>
+
+
+
+        <section class="NEWS-section">
+            <div class="news-M-div Catalog">
+                <DIV class="Catalog-IMG-DIV"><img class="Catalog-IMG" src="./images/katalog.png" alt=""></DIV>
+                <DIV class="Catalog-TEXT-DIV"><P class="Catalog-TEXT">ONLİNE KATALOG</P></DIV>
+            </div>
+            
+            <div class="news-M-div">
+                <div class="news-img-div"><img  class="news-img" src="./images/h1.jpg" alt=""></div>
+                <div class="news-text-div">
+                    <div class="news-text-div-M"><p class="news-text-M">18.12.2015</p></div>
+                    <div class="news-text-line"></div>
+                    <div class="news-text-div-S"><p class="news-text-S">ÇELİKERLER, BATI KARADENİZ YAPI DEKORASYON VE MOBİLYA FUARI’NDAYDI</p></div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="news-M-div">
+                <div class="news-img-div"><img  class="news-img" src="./images/h2.jpg" alt=""></div>
+                <div class="news-text-div">
+                    <div class="news-text-div-M"><p class="news-text-M">18.12.2015</p></div>
+                    <div class="news-text-line"></div>
+                    <div class="news-text-div-S"><p class="news-text-S">ÇELİKERLER, BATI KARADENİZ YAPI DEKORASYON VE MOBİLYA FUARI’NDAYDI</p></div>
+                </div>
+            </div>
+            
+            
+            <div class="news-M-div">
+                <div class="news-img-div"><img  class="news-img" src="./images/h3.jpg" alt=""></div>
+                <div class="news-text-div">
+                    <div class="news-text-div-M"><p class="news-text-M">18.12.2015</p></div>
+                    <div class="news-text-line"></div>
+                    <div class="news-text-div-S"><p class="news-text-S">ÇELİKERLER, BATI KARADENİZ YAPI DEKORASYON VE MOBİLYA FUARI’NDAYDI</p></div>
+                </div>
+            </div>
+            
+            
+            
+
+
+        </section>
+        <footer>
+            <div class="footer-R">
+                <div class="footer-R-M">
+                    <div class="footer-R-L">
+                        <div class="footer-R-M-TEXT-DIV"><P class="footer-R-M-TEXT">Heavy seel</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Tek Katlı Prefabrik Evler</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">İki Katlı Prefabrik Konutlar</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Villa ve Konutları</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Ev Modelleri</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Ev Fiyatları</P></div>
+
+
+
+                    </div>
+                    
+                    <div class="footer-R-L">
+                        <div class="footer-R-M-TEXT-DIV"><P class="footer-R-M-TEXT">Prefabrication</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Şantiye Binaları</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Ofis ve Yönetim Binaları</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Yemekhane Binaları</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Yatakhane Binaları</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Sosyal Tesis Binaları</P></div>
+
+
+
+                    </div>
+                    
+                    <div class="footer-R-L">
+                        <div class="footer-R-M-TEXT-DIV"><P class="footer-R-M-TEXT">Light steel</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Tek Katlı Prefabrik Evler</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">İki Katlı Prefabrik Konutlar</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Villa ve Konutları</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Ev Modelleri</P></div>
+                        <div class="footer-R-S-TEXT-DIV"><P class="footer-R-S-TEXT">Prefabrik Ev Fiyatları</P></div>
+
+
+
+                    </div>
+
+                   
+                </div>
+            </div>
+            <div class="footer-M-line"></div>
+
+
+
+
+
+            <div class="footer-L">
+                <div class="footer-L-M">
+                    <div class="footer-Conact-DIV">
+                        <div class="footer-Conact-TEXT-DIV"><p class="footer-Conact-M-TEXT">Conact</p></div>
+                        <div class="footer-Conact-img-text-DIV">
+                            
+                            
+                            
+                            <div class="footer-Conact-TEXT-DIV-S">
+                                
+                                <div class="footer-Conact-TEXT-DIV-S-S">
+                                    <div class="footer-Conact-img-S-DIV"><img class="footer-Conact-img-SS" src="./images/phone.png" alt=""></div>
+                                    <div class="footer-Conact-TEXT-S-DIV"><P class="footer-Conact-TEXT-SS">+90 378 263 80 09</P></div>
+                                </div>
+                                
+                                
+                                <div class="footer-Conact-TEXT-DIV-S-S">
+                                    <div class="footer-Conact-img-S-DIV"><img class="footer-Conact-img-SS" src="./images/FAX.png" alt=""></div>
+                                    <div class="footer-Conact-TEXT-S-DIV"><P class="footer-Conact-TEXT-SS">+90 378 263 80 95</P></div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            <div class="footer-Conact-TEXT-DIV-S">
+                                
+                                <div class="footer-Conact-TEXT-DIV-S-S">
+                                    <div class="footer-Conact-img-S-DIV"><img class="footer-Conact-img-SS" src="./images/email.png" alt=""></div>
+                                    <div class="footer-Conact-TEXT-S-DIV"><P class="footer-Conact-TEXT-SS">info@celikerler.com</P></div>
+                                </div>
+                                
+                                
+                                <div class="footer-Conact-TEXT-DIV-S-S">
+                                    <div class="footer-Conact-img-S-DIV"><img class="footer-Conact-img-SS" src="./images/email.png" alt=""></div>
+                                    <div class="footer-Conact-TEXT-S-DIV"><P class="footer-Conact-TEXT-SS">satis@celikerler.com</P></div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="footer-Conact-TEXT-DIV-S-E">
+                                
+                                <div class="footer-Conact-img-S-DIV-E"><img class="footer-Conact-img-SS-E" src="./images/address.png" alt=""></div>
+                                <div class="footer-Conact-TEXT-S-DIV-E"><P class="footer-Conact-TEXT-SS-E">Terkehatipler Köyü Yağcı Mah. Çelikerler Fabrikası No:8 Kozcağız Yolu 3.Km Merkez/BARTIN
+
+                                </P></div>
+                                
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="footer-social-DIV">
+                        <DIV class="footer-social-TEXT-DIV"><p class="footer-social-TEXT">Social</p></DIV>
+                        <DIV class="footer-social-IMG-DIV-M">
+                            <DIV class="footer-social-IMG"><img class="footer-social-img-M" src="./images/FACEBOOK.png" alt=""></DIV>
+                            <DIV class="footer-social-IMG"><img class="footer-social-img-M" src="./images/INSTAGRAM.png" alt=""></DIV>
+                        </DIV>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    
+        
+    </body>
+
+</html>
+
+
