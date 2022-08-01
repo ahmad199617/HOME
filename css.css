@@ -1608,6 +1608,18 @@
 
 
             }
+            .Catalog-IMG-DIV-a{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+            
+            
+            
             .Catalog-IMG{width:  100%;}
             .Catalog-TEXT-DIV{
                 width: 100%;

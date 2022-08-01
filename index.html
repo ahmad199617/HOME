@@ -13,117 +13,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src=
-        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
-        
-        
-        <script>
-                
-                
-    //***********************************************************************
-    
-
- 
-
-
-
-    
-    
-    document.addEventListener("DOMContentLoaded", function(){
-        
-                {myVar = setTimeout(showPagex, 1500);}
-                {myVar = setTimeout(showPage, 1000);}
-                
-                
-                function showPage() {
-                document.getElementById("LoadingID").style.opacity = "0%";}
-                
-                function showPagex() {
-                document.getElementById("LoadingID").style.display = "none";}  
-                
-                
-                
-                let vh = window.innerHeight * 0.01;
-                document.documentElement.style.setProperty('--vh', `${vh}px`);
-                
-
-                                
-                
- 
-        
-        
-
-               
-                {
-                $('[lang="tr"]').show();
-                $('[lang="en"]').hide();
-                $('[lang="ar"]').hide();}    
-               
-                var lang=localStorage.getItem('lang');
-                localStorage.getItem('lang');   
-                if(lang==("en")){
-                $('[lang="en"]').show();
-                $('[lang="tr"]').hide();
-                $('[lang="ar"]').hide();}
-                
-                
-                if(lang==("tr")){
-                $('[lang="tr"]').show();
-                $('[lang="en"]').hide();
-                $('[lang="ar"]').hide();}
-                
-                if(lang==("ar")){
-                $('[lang="ar"]').show();
-                $('[lang="en"]').hide();
-                $('[lang="tr"]').hide();}});
-
-
-                
-    
-    
-                
-                $(document).ready(function () {
-                    $('#switch-lang-en').click(function() {
-                        $('[lang="tr"]').hide();
-                        $('[lang="en"]').show();
-                        $('[lang="ar"]').hide();
-                        localStorage.setItem('lang', 'en');
-                    });
-                });
-                
-    
-                $(document).ready(function () {
-                    $('#switch-lang-tr').click(function() {
-                        $('[lang="tr"]').show();
-                        $('[lang="en"]').hide();
-                        $('[lang="ar"]').hide();
-                        localStorage.setItem('lang', 'tr');
-                    });
-                });
-
-
-                $(document).ready(function () {
-                    $('#switch-lang-ar').click(function() {
-                        $('[lang="ar"]').show();
-                        $('[lang="en"]').hide();
-                        $('[lang="tr"]').hide();
-                        localStorage.setItem('lang', 'ar');
-                    });
-                });
-                $('.carousel').carousel({pause: "false"});
-
-
-
-                
-                
-
-                
-                
-                
-                //************************************************************************
-    
-                
-                </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+        <script src="./home.js" defer></script> 
     </head>
     <body>
         
@@ -213,7 +104,7 @@
                     
                    
                     </DIV></li>
-                    <li class="menuItem"><a href="https://ahmad199617.github.io/References/"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">REFERENCES</span><span lang="tr">REFERANSLAR</span><span lang="ar">المراجع</span></p>
+                    <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">REFERENCES</span><span lang="tr">REFERANSLAR</span><span lang="ar">المراجع</span></p>
                     <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
                     <li class="menuItem"><a href="#######"><DIV class="not-active-DIV"><p class="not-active-text"><span lang="en">OUR NEWS</span><span lang="tr">HABERLERIMIZ</span><span lang="ar">أخبارنا</span></p>
                         <DIV class="HOVERD-not-active"></DIV></DIV></a></li>
@@ -770,7 +661,7 @@
 
         <section class="NEWS-section">
             <div class="news-M-div Catalog">
-                <DIV class="Catalog-IMG-DIV"><img class="Catalog-IMG" src="./images/katalog.png" alt=""></DIV>
+                <DIV class="Catalog-IMG-DIV"><a class="Catalog-IMG-DIV-a" href="https://ahmad199617.github.io/Catlog/"> <img class="Catalog-IMG" src="./images/katalog.png" alt=""></a></DIV>
                 <DIV class="Catalog-TEXT-DIV"><P class="Catalog-TEXT">ONLİNE KATALOG</P></DIV>
             </div>
             
