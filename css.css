@@ -553,6 +553,7 @@
                                 justify-content: center;
                                 transition: top ease 0.5s;
                                 flex-direction: column;
+                                transition: none;
 
                             }
                             
@@ -607,6 +608,7 @@
 
 
 
+
                       
                             
                             
@@ -627,20 +629,18 @@
                             
                             
                             
+
                             
                             
                             
-                            
-                             .Inventory-M:hover{z-index: 1;}
-                            
-                           /* .Inventory-M:hover .PRODUCTS-inventory{z-index: 1;}  */
                             
                             
                             .Inventory-M:hover{margin-bottom: 119px;}
-                            
-                            
-                            
                             .Inventory-M:hover .PRODUCTS-inventory {top: 39px;}
+                            .Inventory-M:hover .PRODUCTS-inventory {z-index: 1000;}
+                            
+                            
+                            
                             
                             
                             .not-active-DIV:hover .HOVERD-not-active{display: none;}
@@ -917,15 +917,15 @@
                         @media only screen and (max-width: 1000px) {
 
                             .PRODUCTS-div {
-                                width: 100px;
-                                height: 100px;
+                                width: 90px;
+                                height: 90px;
 
                             }
 
 
                             .PRODUCTS-text{
                                 position: relative;
-                                top: 77px;
+                                top: 69px;
                                 font-family: 'Bebas Neue', cursive;
                                 font-size: 17px;
                             }
@@ -1093,8 +1093,8 @@
                             flex-direction: row;
                         }
                         .story-img-div {
-                            height: 85px;
-                            width: 85px;
+                            height: 70px;
+                            width: 70px;
                             border-radius: 140px;
                             background-color: #000000;
                             margin-left: 5px;
@@ -2169,3 +2169,97 @@
 
 
             }
+            /* ****************WHATSAPP-section**********************/
+            .WHATSAPP-section {
+                position: fixed;
+                bottom: 90px;
+                display: none;
+                justify-content: flex-end;
+                width: 100%;
+                height: 0;
+            }
+            .WHATSAPP-img-div {
+                height: 50px;
+                width: 230px;
+
+            }
+            .WHATSAPP-div-M {
+                height: 100%;
+                width: 80%;
+                background-color: #00A859;
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+
+
+
+
+
+            .WHATSAPP-img-div-img{
+                height: 50px;
+                width: 50px;
+                background-color: white;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                border-radius: 0px 9px 9px 0px;
+
+            }
+
+            .WHATSAPP-text-div p {
+                font-size: 25px;
+                color: white;
+                font-family: 'Bebas Neue', cursive;
+                margin: 0;
+
+            }
+            
+            .WHATSAPP-text-div {
+                height: 100%;
+                width: 180px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .WHATSAPP-img-div:hover .WHATSAPP-div-M{background-color: #01ff88d5;}
+
+             
+            /* ****************footer phone**********************/
+
+
+             @media only screen and (max-width: 1000px) {
+                .WHATSAPP-img-div {
+                    height: 40px;
+                    width: auto;
+                    display: flex;
+                    justify-content: center;
+                }
+                .WHATSAPP-div-M {
+                    height: 100%;
+                     width: auto; 
+                    background-color: #00A859;
+                    border-radius: 10px;
+                    display: flex;
+                }
+                .WHATSAPP-img-div-img {
+                    height: 40px;
+                    width: 40px;
+                    background-color: white;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                }
+                .WHATSAPP-section {
+                    position: fixed;
+                    bottom: 50px;
+                    justify-content: center;
+                    width: 100%;
+                    height: 0;
+                    z-index: 15;
+                }
+
+                
+             }

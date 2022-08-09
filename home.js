@@ -79,3 +79,11 @@ document.addEventListener("DOMContentLoaded", function(){
                 localStorage.setItem('lang', 'ar');
             });
         });
+        
+
+        function showW (){
+            document.querySelector(".WHATSAPP-section").style.display = "flex";
+
+
+        }
+
