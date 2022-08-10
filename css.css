@@ -1093,8 +1093,8 @@
                             flex-direction: row;
                         }
                         .story-img-div {
-                            height: 70px;
-                            width: 70px;
+                            height: 85px;
+                            width: 85px;
                             border-radius: 140px;
                             background-color: #000000;
                             margin-left: 5px;
@@ -1120,7 +1120,7 @@
                     }
                     
                     /* **************** story hover **********************/
-                       .story-img-div:hover .img-story{transform: scale(1.4);}
+                       .story-img-div:hover .img-story{transform: scale(1.2);}
 
 
 
