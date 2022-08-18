@@ -60,616 +60,458 @@
                     ul{list-style: none;}
                     
                     /* ****************header PC**********************/
-                    header{ 
-                        z-index: 50;
-                        height: 105px;
+                    .pc-header {
+                        height: 100px;
+                        width: 100%;
+                        background-color: white;
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         position: relative;
-                        background-color: #ffffff;
+                        z-index: 1;
+                    }
+
 
                     
+                    .icon-img-div {
+                        height: 55%;
+                        width: 25%;
+                        display: flex;
+                        justify-content: flex-end;
                     }
-                    .nav-W{
-
+                    .icon-img-div img {
                         height: 100%;
-                        background-color: #ffffff;
-                        width: 100%;
-                        z-index: -1;
-                        position: absolute;
+                        position: relative;
+                        left: 15%;
+                    }
+                    .text-M-div {
+                        display: flex;
+                        width: 50%;
+                        justify-content: center;
+                        align-items: center;
+                        HEIGHT: 100%;
+                    }
+                    .text-s-div {
+                        margin-left: 2%;
+                        margin-right: 2%;
+                        display: flex;
+                        flex-direction: column;
+                        height: 100%;
+                        position: relative;
+                        justify-content: center;
+                    }
+
+
+                    .text-s-div p {
+                        margin: 0;
+                        font-size: 1.3vw;
+                        font-family: 'Bebas Neue', cursive;
+                        color: #4B4B4B;
+                        white-space: nowrap;
+                        cursor: pointer;
+                    }
+                    .lang-ling-div{
+                        width: 25%;
+                        height: 100%;
+                    }
+                    .text-lang-phone-div{
+                        height: 100%;
+                        display: flex;
+                        width: fit-content;
+                        position: relative;
+                        right: 15%;
+                    }
+                    .text-info-header-div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #1A4990;
+                        margin-right: 10px;
+
+                        }
+                    .text-phone-p{
+                        margin: 0;
+                        font-size: 1.1vw;
+                        font-family: 'Bebas Neue', cursive;
+                        color: #ffffff;
+                        white-space: nowrap;
+                        margin-left: 3px;
 
                     }
-                    
-                    .logo-DIV{
-                        
-                        position: absolute;
-                        right: 75%;
-                        width: 15%;
-                    }
-                    .meun-div-m{
-                        width: 40%;
-                        height: 40px;
-                    }
-
-                    .menuItem{
-                        width: 16%;
+                    .text-email-p{
+                        margin: 0;
+                        font-size: 0.8vw;
+                        font-family: 'Bebas Neue', cursive;
+                        color: #ffffff;
+                        white-space: nowrap;
                         margin-left: 10px;
                         margin-right: 10px;
+                    } 
+                    
+                    .text-lang-header-div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: white;
+                        position: relative;
+
                     }
-                    .menuItem-lang{
-                        width: 7%;
+                    .text-lang-header-div p {
+                        margin: 0;
+                        font-size: 25px;
+                        font-family: 'Bebas Neue', cursive;
+                        color: #1A4990;
+                        white-space: nowrap;
+                        cursor: pointer;
+                        margin-right: 10px;
+                        margin-left: 10px;
                     }
-                    
+                    .text-img-p-div {
+                        width: 30px;
+                        height: 30px;
+                        background-color: white;
+                        overflow: hidden;
+                        border-radius: 120px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .text-img-p-div img {
+                        height: 35px;
+                    }
+                    .M-DIV-IMG-POHONE {
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .line-text-m {
+                        width: 100%;
+                        height: 0px;
+                        background-color: #1A4990;
+                        position: absolute;
+                        bottom: 0;
+                        transition: all 0.2s;
 
-                    
-                    
-                    .menu { list-style: none;
-                            display: flex;
-                            ALIGN-ITEMS: flex-end;
-                            padding: 0;
-                            margin: 0;
-                        }
-                
-                        .menuitme{padding: 10px 10px;}
+                    }
+                    .text-id-M{
+                        transition: all 0.2s;
+                    }
+                    .lang-H-M {
+                        width: 100%;
+                        background-color: #1a4990;
+                        position: absolute;
+                        z-index: -1;
+                        bottom: 0;
+                        visibility: hidden;
+                        transition: all 0.3s;
 
-                        .logo-IMG{
-                            position: relative;
-                            width: 100%;
+                    }
+                    .lang-text-M{
+                        width: 100%;
+                        background-color: #1a4990;
+                        border-style: solid;
+                        border-width: 1px;
+                        border-color: rgb(255, 255, 255);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        transition: all 0.2s;
+                        cursor: pointer;
+                    }
+                    .lang-text-M p{
+                        font-size: 20px;
+                        font-family: 'Bebas Neue', cursive;
+                        color: white;
+                        margin: 0;
+                        transition: all 0.2s;
+                    }
 
-                        }
-
-                        .not-active-DIV{
-
-                            background-color: rgb(255, 255, 255);
-                            height: 40px;
-                            width: 100%;
-                            border-radius: 3px;
-                            text-align: center;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                        }
-                        .active-DIV{
-
-                            background-color: rgb(255, 255, 255);
-                            height: 40px;
-                            width: 100%;
-                            border-radius: 3px;
-                            text-align: center;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                        }
-                        .HOVER{
-                            background-color: #1A4990;
-                            height: 8px;
-                            width: 125px;
-                            position: absolute;
-                            top: 105px;
-
-
-                        }
-                        .lang-DIV{
-                            background-color:#ffffff;
-                            height: 40px;
-                            width: 100%;
-                            border-radius: 3px;
-                            text-align: center;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
+                    .PRODUCTS-MI-DIV-BIG {
+                        width: 800px;
+                        background-color: rgb(255, 255, 255);
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        right: -370px;
+                        height: 0px;
+                        top: 100px;
+                        overflow: hidden;
+                        transition: all 0.4s;
+                    }
+                    .PRODUCTS-S-DIV {
+                        width: 33%;
+                        background-color: #ffffff;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         
+
                         
-                        }
 
-                            .HOVERD-not-active-lang{
-                                background-color: #1A4990;
-                                height: 8px;
-                                width: 3%;
-                                position: absolute;
-                                top: 97px;
-                                display: none;
-                                z-index: 5;
-                            
-                            
-                            }
+                    }
 
+                    .PRODUCTS-S-DIV p{
+                        font-size: 1.0vw;
+                        margin: 0;
+                        margin-bottom: 15px;
+                    }
+                    .big-text-div p{
+                        font-size: 1.3vw;
+                        margin: 0;
+                        margin-bottom: 15px;
+                        margin-top: 15px;
 
-                        .HOVERD-not-active{
-                            background-color: #1A4990;
-                            height: 8px;
-                            width: 6%;
-                            position: absolute;
-                            top: 97px;
-                            display: none;}
+                    }
+                    .PRODUCTS-S-mid{
+                        border-style: solid;
+                        border-color: #696969;
+                        border-bottom: none;
+                        border-width: 1px;
+                        border-top: none;
                         
-                        .not-active-text{
-
-                            color: #4B4B4B;
-                            font-size: 1.3vw;
-                            font-family: 'Bebas Neue', cursive;
-                            margin: 0;
-                            white-space: nowrap;
-
-                            position: relative;}
-
-
-                        .active-text{   
+                    }
+                    .a-mune-text{
+                        text-decoration: none;
+                        color: inherit;
+                        margin-left: 2%;
+                        margin-right: 2%;
+                        height: 100%;}
                     
-                            color: #4B4B4B;
-                            font-size: 1.3vw;
-                            font-family: 'Bebas Neue', cursive;
-                            margin: 0;
-                            position: relative;
-                            white-space: nowrap;
 
+                    
+                    
+                   
+                        
+                    /* **************** header PC hover **********************/
+
+                    .text-s-div:hover .PRODUCTS-MI-DIV-BIG {height: 280px;}
+                    
+                    .PRODUCTS-S-TEXT:hover{
+                        color: #111;
+                        transform: scale(1.2);}
+                    
+                    .PRODUCTS-BIG-TEXT:hover{
+                        color: #111;
+                        transform: scale(1.2);}
+
+
+                    
+                    .text-lang-header-div:hover .lang-H-M{
+                        visibility: visible;
+                        bottom: -92px;
+                    }
+                    .phone-header{display: none;}
+
+
+
+                    .text-s-div:hover .line-text-m{height: 8px;}
+                    
+                    .text-s-div:hover .text-id-M {color: #1A4990;}
+
+                    .lang-text-M:hover {background-color: #065ad8;}
+
+                    /* **************** header phone **********************/
+                    
+                    @media only screen and (max-width: 1000px) {
+                        .pc-header{display: none;}
+                        
+                        .phone-header{
+
+                            box-shadow: 0px 0px 20px #000000;
+                            width: 100%;
+                            height: 60px;
+                            position: fixed;
+                            z-index: 1;
+                            background-color: white;
+                            display: flex;
                         }
-                            .lang-ul{    
-                                
-                                position: absolute;
-                                top: 105px;
-                                padding: 0;
-                                width: 3%;
-                                height: 2%;
-                                z-index: 5;
-
-
-                            
-                            }
-
-
-                            .S-lang-div{
-                                display: none;
-                                background-color: #ffffff;
-                                height: 100%;
-                                width: 100%;
-                                z-index: 50;
-                                border-style: solid;
-                                border-color: #4b4b4b;
-                                border-width: 1px;
-                            }
-                            .HOVERD-H{
-                                height: 100%;
-                                width: 3%;
-                                background-color: #ffffff;
-                                position: absolute;
-                                display: none;
-                                z-index: 1;
-                                opacity: 0%;
-
-
-
-
-                            }
-
-
-                            .lang-t{
-                                color: #4b4b4b;
-                                font-size: 1.3vw;
-                                font-family: 'Bebas Neue', cursive;
-                                margin: 0;
-                                top: 12%;
-                                position: relative;
-                            
-                            }
-
-                         .PRODUCTS-M-TEXT{
-                            font-size: 1.3vw;
-                            font-family: 'Bebas Neue', cursive;
-                            color: #4B4B4B;
-                            margin: 20px;
-                        }
-                        .PRODUCTS-S-TEXT{
-                            font-size: 1vw;
-                            font-family: 'Bebas Neue', cursive;
-                            color: #4B4B4B;
-                            margin: 15px;
-            
-            
-            
-                        }
-                        .heavy-DIV{
-                            height: 100%;
+                        .W-LOG-X{
                             width: 33%;
-                            background-color: #ffffff;
+                            display: flex;
+                            justify-content: center;
                             align-items: center;
-                            justify-content: center;}
-                        
-                        
-                        
-                        .Prefabrication-DIV{
-                                height: 100%;
-                                width: 34%;
-                                background-color: #ffffff;
-                                align-items: center;
-                                justify-content: center;
-                                border-style: solid;
-                                border-color: #696969;
-                                border-bottom: none;
-                                border-width: 1px;
-                                border-top: none;
-                            
-                            }
-                            
-                            
-                            
-                           
-                        
-                        
-                        .Light-DIV{
-                            height: 100%;
-                            width: 33%;
-                            background-color: #ffffff;
-                            align-items: center;
-                            justify-content: center;}        
-            
-            
-            
-            
-            
-                        .PRODUCTS-M-ul{padding: unset;}
+                        }
+                        .W-LOG-X img{
+                            height: 75%;
 
-                        .PRODUCTS-inventory {
-                            height: 280px;
-                            width: 40%;
-                            background-color: #ffffff;
-                            z-index: -100;
-                            position: absolute;
-                            top: -250px; 
-                            transition: top ease 0.5s;
+                        }
+                        .Close-line-div{
+                            width: 45px;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            cursor: pointer;
+                        }
+                        .Close-line-div-B{
+                            width: 100%;
+                            height: 6px;
+                            border-radius: 5px;
+                            background-color: #1A4990;
+                        }
+                        .W-LOG-l{                            
+                            width: 33%;
                             display: flex;
                             align-items: center;
-                            justify-content: center;
-                        }
+                            justify-content: flex-start;;
 
-                        
-                        .small-inventory{
-                            height: 48px;
-                            width: 125px;
-                            background-color: #ffffff;
-                            opacity: 0%;
-                            position: absolute;
-                            display: none;
+                        }
+                        .Close-W{
+                            position: relative;
+                            right: -23px;
+                            height: 100%;
+                        }
+                        .menu-phone{
+                            display: flex;
+                            position: fixed;
                             top: 60px;
-                        
-                        } 
+                            width: 50%;
+                            flex-direction: column;
+                            height: 0px;
+                            visibility: hidden;
+                            transition: all 0.5s;
+                            overflow: hidden;
+                            left: 0;
+                        }
 
-                        .meun-div-MM{
-                            HEIGHT: 100%;
-                            WIDTH: 100%;
-                            DISPLAY: flex;
+                        .text-mune-phone {
+                            display: flex;
+                            align-content: center;
+                            align-items: center;
+                            justify-content: flex-start;
+                            background-color: #1A4990;
+                            cursor: pointer;
+                        }
+                        .text-mune-phone p{
+                            margin: 0;
+                            position: relative;
+                            right: -23px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            font-size: 20px;
+                            font-family: 'Bebas Neue', cursive;
+                            color: white;
+
+                        }
+                        
+                        
+
+                        .lang-div-phone{
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            align-content: center;
+                            position: fixed;
+                            width: 50%;
+                            background-color: white;
+                            top: 330px;
+                            height: 0;
+                            overflow: hidden;
+                            transition: all 0.2s;
+
+                        }
+                        .lang-div-phone p{
+                            display: flex;
+                            margin: 0;
+                            font-family: 'Bebas Neue', cursive;
+                            font-size: 20px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            color: #333;
+                            right: 0;
+
+                            
+                        }
+                        .lang-text-phone{
+                            width: 33.33333333333333%;
+                            height: 100%;
+                            background-color: white;
+                            cursor: pointer;
+                            display: flex;
                             align-items: center;
                             justify-content: center;
                         }
-                       
-                        /* ****************HOVER**********************/
-                        .lang-DIV:hover .S-lang-div{display: block;}
-                        .lang-DIV:hover .HOVERD-not-active-lang{display: block;}
-                        .lang-DIV:hover .HOVERD-H{display: block;}
                         
-                        
-                        .S-lang-div:hover{background-color: #1A4990;}
-                        .S-lang-div:hover .lang-t{color: #ffffff;}
-                        
+                        .lang-text-phone-M{
+                            border-style: solid;
+                            border-color: #696969;
+                            border-bottom: none;
+                            border-width: 1px;
+                            border-top: none;
+                        }
 
-                        .not-active-DIV:hover .HOVERD-not-active{display: block;}
-            
-                        .not-active-DIV:hover .active-DIV{background-color: #ffffff; }
-                        
-                        
-                        
-                        .PRODUCTS-S-TEXT:hover  {color: black;transform: scale(1.2);}
-                        .PRODUCTS-M-TEXT:hover  {color: black;transform: scale(1.2);}
-                         .Inventory-M:hover .PRODUCTS-inventory{top: 104px;}  
-                        .Inventory-M:hover .small-inventory{display: block;}
-                        
-                        
-                        
-                        
-                        /* ****************header PHONE**********************/
-                        @media only screen and (max-width: 1000px) {
-                            
-                            
-                            header {
-                                background-color: #ffffff;
-                                height: 60px;
-                                POSITION: fixed;
-                                width: 100%;
-                                box-shadow: 0px 0px 20px #000000;
-                            }
-                            .nav-W{
-                                height: 100%;
-                                background-color: #ffffff;
+                        .Pro-div-M{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;}
 
+                        .pro-mune-phone{
+                            width: 100%;
+                            height: 100%;
+                            background-color: white;
+                            display: flex;
+                            justify-content: center;
+                        }
+                        .pro-mune-phone p{
+                            color: #333;
+                            right: 0;
+                            
+                        }
 
-                            }
-                            .logo-DIV {
-                                position: relative;
-                                height: 100%;
-                                width: 100%;
-                                display: flex;
-                                text-align-last: center;
-                                align-items: center;
-                                right: 0;
-                                flex-direction: row;
-                                flex-wrap: nowrap;
-                                align-content: center;
-                                justify-content: center;
-                                z-index: 10;
-                            }
-                            .logo-IMG {
-                                position: relative;
-                                width: 35%;
-                            }
-                            
-                            
-                            
-                            
-                            
-
-                            .meun-div-MM{
-                                position: absolute;
-
-                            }
-                            
-                            .meun-div-HMM
-                            {
-                                width: 45px;
-                                height: 100%;
-                                display: flex;
-                                flex-direction: column;
-                                flex-wrap: nowrap;
-                                align-content: center;
-                                justify-content: center;
-                                align-items: stretch;
-                                position: relative;
-                                right: 40%;
-                                z-index: 11;
-                            }
-                            .meun-meun{
-                                
-                                
-                                position: relative;
-                                background-color: #1A4990;
-                                height: 8%;
-                                margin: 5px;
-                                border-radius: 10px;
-                            }
-
-                            .meun-div-m{
-                                position: absolute;
-                                /* display: none; */
-                                left: 0;
-                                top: -225px;
-                                width: 50%;
-                                transition: top ease 0.2s;
-                                height: 0;
-                                
-                            }
-                            .menu {
-                                list-style: none;
-                                display: flex;
-                                ALIGN-ITEMS: flex-end;
-                                padding: 0;
-                                margin: 0;
-                                flex-direction: column;
-                                align-content: center;
-                                justify-content: center;
-                                align-items: flex-start;
-                                position: relative;
-                                z-index: -5;
-                            }
-
-                            .menuItem {
-                                width: 100%;
-                                margin: 0;
-                            }
-                            .HOVERD-not-active {
-                                background-color: #1A4990;
-                                height: 3px;
-                                width: 50%;
-                                position: relative;
-                                top: 11px;
-                                display: none; 
-                                 
-                            }
-                            .not-active-DIV {
-                                background-color: #1A4990;
-                                height: 40px;
-                                width: 100%;
-                                text-align: center;
-                                display: flex;
-                                align-items: flex-start;
-                                justify-content: center;
-                                flex-direction: column;
-                                position: relative;
-                                border-radius: 0px;
-                            }
-                            
-                            .HOVERD-not-active-lang {
-                                background-color: #1A4990;
-                                height: 3px;
-                                width: 50%;
-                                position: relative;
-                                top: 11px;
-                            }
-                            .lang-DIV {
-                                background-color: #1A4990;
-                                height: 40px;
-                                width: 100%;
-                                border-radius: 0px;
-                                text-align: center;
-                                display: flex;
-                                justify-content: center;
-                                align-items: flex-start;
-                                flex-direction: column;
-                                position: relative;
-                            }
-                            .HOVERD-H{display: none;}
-                            .active-text{
-                                font-size: 20px;
-                                position: relative;
-                                right: -15%;
-                                color: #ffffff;
-                                z-index: 5;
-
-                            }
-                            .not-active-text{
-                                font-size: 20px;
-                                position: relative;
-                                right: -15%;
-                                color: #ffffff;
-
-                            }
-                            .lang-li{
-                                width: 100%;
-                                height: 100%;
-                            }
-                            
-                            .lang-ul {
-                                position: absolute;
-                                top: 39px;
-                                padding: 0;
-                                width: 100%;
-                                height: 40px;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                align-content: center;
-                                flex-direction: row;
-                                display: none;
-                            }
-                            .lang-t {
-                                font-size: 20px;
-
-                            }
-                            
-                            .PRODUCTS-inventory {
-                                height: 300%;
-                                width: 100%;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                transition: top ease 0.5s;
-                                flex-direction: column;
-                                transition: none;
-
-                            }
-                            
-                            
-                            .Inventory-M {transition: all 0.5s, z-index .2s 1s;
-                            
-                            
-                            }
-                            
-                            .PRODUCTS-M-ul {
-                                padding: unset;
-                                display: none;
-                            }
-                            
-                            .PRODUCTS-M-TEXT {
-                                font-size: 20px;
-                                font-family: 'Bebas Neue', cursive;
-                                color: #4B4B4B;
-                                position: relative;
-                                right: -52px;
-                                margin: 0;
-                            }
-                            .Light-DIV {
-                                height: 100%;
-                                width: 100%;
-                                background-color: #ffffff;
-                                align-items: center;
-                                justify-content: flex-start;
-                                flex-direction: row;
-                                display: flex;
-                            }
-                            .Prefabrication-DIV {
-                                height: 100%;
-                                width: 100%;
-                                background-color: #ffffff;
-                                align-items: center;
-                                justify-content: flex-start;
-                                flex-direction: row;
-                                display: flex;
-                                border-style: none;
-                            }
-                            .heavy-DIV {
-                                height: 100%;
-                                width: 100%;
-                                background-color: #ffffff;
-                                align-items: center;
-                                justify-content: flex-start;
-                                flex-direction: row;
-                                display: flex;
-                            }
-                            
-
-
-
-
-                      
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-
-                            
-                            
-                            
-                            
-                            
-                            .Inventory-M:hover{margin-bottom: 119px;}
-                            .Inventory-M:hover .PRODUCTS-inventory {top: 39px;}
-                            .Inventory-M:hover .PRODUCTS-inventory {z-index: 1000;}
-                            
-                            
-                            
-                            
-                            
-                            .not-active-DIV:hover .HOVERD-not-active{display: none;}
-                            .lang-DIV:hover .HOVERD-not-active-lang{display: none;}
-                            .meun-div-MM:hover .meun-div-m{top: 60px;}
-                            .lang-DIV:hover .lang-ul {display: flex;}
-                            .not-active-DIV:hover .not-active-text{transform: scale(1.2);}
-                            .lang-DIV:hover .active-text{transform: scale(1.2);}
-                            .not-active-DIV:hover .active-text{transform: scale(1.2);}
-                            .Inventory-M:hover .small-inventory{display: none;}
-
-
-                            
-                            
-                            
-                            
-
-
-                        
-                        
-                        
-                        
-                        
-                        
+                        .pro-mune-phone-M{
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                            height: 0px;
+                            overflow: hidden;
+                            transition: all 0.3s;
                         
                         
                         }
+
                         
-                        /* **************** background **********************/
+                        
+                        
+                        
+
+
+
+
+
+
+
+
+                    /* **************** header phone hover **********************/    
+
+
+                        .Pro-div-M:hover .pro-mune-phone-M{height: 120px;}
+
+                        
+                        .pro-mune-phone:hover .text-mune-phone-text-s{transform: scale(1.2);}
+                        
+                        .lang-text-phone:hover {background-color: #1A4990;}
+                        .lang-text-phone:hover p {color: white;}
+                        .text-mune-phone:hover .lang-div-phone{height: 40px;}
+                        .text-mune-phone:hover .text-mune-phone-text {transform: scale(1.2);}
+                        .Close-W:hover .menu-phone{ height: 390px; visibility: visible;}
+                    }
+
+                    /* **************** header END **********************/   
+                    
+                    
+                    
+                   
+                    
+
+
+
+
+
+                        
+                    /* **************** background **********************/
                         .background-section{
                             width: 100%;
                         }

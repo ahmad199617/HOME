@@ -79,8 +79,54 @@ document.addEventListener("DOMContentLoaded", function(){
                 localStorage.setItem('lang', 'ar');
             });
         });
-        
 
+        
+        
+        function setlangEN(){                   
+            
+        $('[lang="tr"]').hide();
+        $('[lang="en"]').show();
+        $('[lang="ar"]').hide();
+        localStorage.setItem('lang', 'en');
+
+        }
+        function setlangTR(){
+            $('[lang="tr"]').show();
+            $('[lang="en"]').hide();
+            $('[lang="ar"]').hide();
+            localStorage.setItem('lang', 'tr');
+
+        }
+
+        function setlangAR(){
+            $('[lang="ar"]').show();
+            $('[lang="en"]').hide();
+            $('[lang="tr"]').hide();
+            localStorage.setItem('lang', 'ar');
+
+        }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         function showW (){
             document.querySelector(".WHATSAPP-section").style.display = "flex";
 
