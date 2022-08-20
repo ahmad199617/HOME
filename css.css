@@ -1447,6 +1447,89 @@
                 }
 
             }
+            
+            /*****************B&A**********************/
+
+
+            .B-A-section {
+                width: 100%;
+                background-color: #1A4990;
+                display: flex;
+                margin-top: 280px;
+                margin-bottom: 120px;
+            }
+            .B-A-big-div {
+                width: 50%;
+                position: relative;
+                display: flex;
+                height: 322px;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+
+            .div-img-m-a-b {
+                height: 450px;
+                top: -178px;
+                position: absolute;
+                transition: all 0.7s;
+                overflow: hidden;
+                display: flex;
+                align-items: stretch;
+                justify-content: flex-end;
+            }
+
+            .AB_IMG-M {
+                width: 0;
+                right: 0;
+                display: flex;
+                justify-content: flex-end;
+            }
+            .DIV-L-A-B {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+            .text-B-A-S {
+                font-size: 50px;
+                color: white;
+                font-family: 'Bebas Neue', cursive;
+                margin-top: 10px;
+                margin-bottom: 15px;
+                margin-left: 15px;
+            }
+
+            .text-B-A-M{
+                font-size: 20px;
+                color: white;
+                font-family: 'Bebas Neue', cursive;
+                margin-left: 20px;
+                margin-right: 20px;
+                width: 60%;
+
+            }
+
+
+
+            .B-A-section:hover .B-A-big-div .AB_IMG-M {width: 705px;}
+            
+            
+            @media only screen and (max-width: 1000px) {
+
+                .B-A-section{display: none;}
+                
+
+
+
+            }
+
+
+
+            /*****************B&A**********************/
+
+
+
             /* ****************news**********************/
             .NEWS-section {
                 width: 100%;
