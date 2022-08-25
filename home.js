@@ -123,7 +123,6 @@ document.addEventListener("DOMContentLoaded", function(){
             if(position.top >= 0 && position.bottom <= window.innerHeight) {
                 inscrenN = 0
                 document.querySelector('.B-A-div-img-2').style.width='100%'
-                console.log('xxxx');
                 
                 
             }
