@@ -1512,21 +1512,84 @@
 
 
 
-            .B-A-section:hover .B-A-big-div .AB_IMG-M {width: 705px;}
-            
-            
-            @media only screen and (max-width: 1000px) {
-
-                .B-A-section{display: none;}
-                
+            .B-A-section:hover .B-A-big-div .AB_IMG-M {width: 705px;}  
 
 
+             /* **************** B-A- Phone **********************/   
+                    .B-A-section-phone {
+                        position: relative;
+                        width: 100%;
+                        display: none;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 100px;
+                        margin-bottom: 100px;
+                    }
+                    .B-A-phone-A {
+                        position: absolute;
+                        height: 60%;
+                        bottom: 0;
+                        width: 100%;
+                        background-color: #1A4990;
+                        z-index: -1;
+                    }
+                    .B-A-phone-B {
+                        width: 90%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                    .B-A-phone-T {
+                        height: 300px;
+                        position: relative;
+                        display: flex;
+                        justify-content: flex-start;
+                        width: 90%;
+                        overflow: hidden;
+                    }
+                    .B-A-div-img-1 {
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+                    .B-A-div-img-2 {
+                        width: 0%;
+                        height: 100%;
+                        overflow: hidden;
+                        position: absolute;
+                        top: 0;
+                        transition: all 3s;
+                    }
+                    .B-A-ph-img-1{
+                        height: 100%;
+                    }
+                    .B-A-ph-img-2{
+                        height: 100%;
+                    }
+                    .text-B-A-PHONE-M{
+                        color: #ffffff;
+                        font-size: 25px;
+                        font-family: 'Bebas Neue', cursive;
 
-            }
+                    }
+                    
+                    .text-B-A-PHONE-S{
+                        color: #ffffff;
+                        font-size: 17px;
+                        font-family: 'Bebas Neue', cursive;
 
+                    }
+                    @media only screen and (max-width: 1000px) {
 
+                        .B-A-section{display: none;}
+                        .B-A-section-phone{display: flex;}
+                        
+        
+        
+        
+                    }
 
-            /*****************B&A**********************/
+            /* **************** B-A- Phone **********************/               
 
 
 

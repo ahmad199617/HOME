@@ -106,30 +106,47 @@ document.addEventListener("DOMContentLoaded", function(){
 
         }
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         function showW (){
             document.querySelector(".WHATSAPP-section").style.display = "flex";
 
 
         }
+        
+        
+        var inscrenN=0
+
+        window.addEventListener('scroll', function() {
+            var element = document.querySelector('.B-A-section-phone');
+            var position = element.getBoundingClientRect();
+        
+            // checking whether fully visible
+            if(position.top >= 0 && position.bottom <= window.innerHeight) {
+                inscrenN = 0
+                document.querySelector('.B-A-div-img-2').style.width='100%'
+                console.log('xxxx');
+                
+                
+            }
+        
+            // checking for partial visibility
+            if(position.top < window.innerHeight && position.bottom >= 0) {
+                
+                inscrenN ++
+                
+                if(inscrenN>3){
+                    
+                document.querySelector('.B-A-div-img-2').style.width='0%'
+            
+            
+                }
+                
+
+
+
+                
+                
+            }
+        });
+
+
 
