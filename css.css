@@ -127,7 +127,6 @@
                         justify-content: center;
                         align-items: center;
                         background-color: #1A4990;
-                        margin-right: 10px;
 
                         }
                     .text-phone-p{
@@ -160,7 +159,7 @@
                     }
                     .text-lang-header-div p {
                         margin: 0;
-                        font-size: 25px;
+                        font-size: 30px;
                         font-family: 'Bebas Neue', cursive;
                         color: #1A4990;
                         white-space: nowrap;
